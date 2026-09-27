@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Теги -->
+  <title>Честный AI-каталог: реальные бесплатные лимиты нейросетей без обмана и карт</title>
+  <meta name="description" content="Полный каталог бесплатных нейросетей для текста, картинок, видео, кода и музыки. Реальные лимиты, проверка на водяные знаки и привязку зарубежных карт.">
+  <meta name="keywords" content="бесплатные нейросети, каталог ии, chatgpt бесплатно, аналоги midjourney, видео нейросети без водяного знака, нейросети без карты, ai бесплатно">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Честный AI-каталог: реальные бесплатные лимиты нейросетей">
+  <meta property="og:description" content="Каталог нейросетей без маркетинговой шелухи: сколько картинок, видео и текста дают бесплатно на самом деле.">
+  <meta property="og:locale" content="ru_RU">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: { extend: {} }
+    }
+  </script>
+
+  <!-- Микроразметка Schema.org (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "Честный AI-каталог",
+        "description": "База реальных бесплатных лимитов популярных нейросетей"
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Какие нейросети для создания видео дают бесплатные попытки без карты?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Среди популярных видеогенераторов без привязки банковской карты доступны Kling AI (66 баллов в день), Luma Dream Machine (30 генераций в месяц), Hailuo AI (MiniMax), Pika и Runway."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Есть ли бесплатная версия у Midjourney?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Нет, у Midjourney бесплатный пробный период полностью отключен. Доступны только платные тарифы от $10/месяц."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900 text-slate-800 dark:text-slate-100 min-h-screen font-sans pb-16 transition-colors duration-200">
+
+  <!-- Шапка -->
+  <header class="border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-950/70 backdrop-blur sticky top-0 z-30 transition-colors">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div>
+        <a href="#" class="text-2xl font-black tracking-tight text-slate-900 dark:text-white flex items-center gap-2">
+          <span>⚡ Честный AI</span>
+          <span class="text-xs bg-emerald-500/20 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded">Без обмана</span>
+        </a>
+        <p class="text-xs text-slate-500 dark:text-slate-400 mt-0.5">Каталог реальных бесплатных лимитов без скрытых условий и платных барьеров</p>
+      </div>
+
+      <div class="flex items-center gap-3">
+        <!-- Переключатель темы (по умолчанию темная) -->
+        <button id="themeToggle" type="button" class="p-2 rounded-xl bg-slate-100 dark:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-emerald-500 transition" title="Переключить тему">
+          <span id="themeIcon">🌙</span>
+        </button>
+
+        <div id="stats" class="text-xs text-slate-600 dark:text-slate-400 font-mono bg-slate-100 dark:bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-800">
+          Показано: <span id="count" class="text-emerald-600 dark:text-emerald-400 font-bold">...</span> сервисов
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Обертка с боковыми рекламными слотами -->
+  <div class="max-w-[1600px] mx-auto px-4 flex justify-center gap-6 mt-6">
+
+    <!-- ============================================================== -->
+    <!-- [НАЧАЛО] ЛЕВЫЙ БОКОВОЙ БЛОК (Ctrl+F: LEFT_SIDE_SLOT)          -->
+    <!-- ============================================================== -->
+    <aside class="hidden xl:block w-48 shrink-0">
+      <div class="sticky top-24">
+        <a 
+          href="https://t.me/your_telegram" 
+          target="_blank" 
+          rel="noopener"
+          class="collab-box group flex flex-col items-center justify-center p-4 h-[550px] rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-800 hover:border-emerald-500 bg-white/40 dark:bg-slate-950/40 hover:bg-slate-100 dark:hover:bg-slate-950 transition text-center"
+        >
+          <span class="text-2xl mb-3 opacity-70 group-hover:scale-110 transition">🚀</span>
+          <span class="text-xs font-bold text-slate-700 dark:text-slate-300 group-hover:text-emerald-500 transition uppercase tracking-wider mb-2">
+            Партнёрский слот
+          </span>
+          <span class="text-[11px] text-slate-500 leading-relaxed px-2">
+            Здесь может быть ваш ИИ-продукт, бот или сервис
+          </span>
+          <span class="mt-4 text-[10px] text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2 py-1 rounded font-medium">
+            Свободно • Клик
+          </span>
+        </a>
+      </div>
+    </aside>
+    <!-- ============================================================== -->
+    <!-- [КОНЕЦ] ЛЕВЫЙ БОКОВОЙ БЛОК                                     -->
+    <!-- ============================================================== -->
+
+    <!-- Центральная часть -->
+    <main class="max-w-6xl w-full">
+
+      <!-- ============================================================== -->
+      <!-- [НАЧАЛО] ВЕРХНИЙ БЛОК НАД ПОИСКОМ (Ctrl+F: TOP_PARTNER_SLOT)   -->
+      <!-- ============================================================== -->
+      <div class="mb-5">
+        <a 
+          href="https://t.me/your_telegram" 
+          target="_blank" 
+          rel="noopener"
+          class="partner-slot-top group flex flex-col sm:flex-row items-center justify-between gap-3 p-3.5 sm:px-5 rounded-2xl border border-dashed border-slate-300 dark:border-slate-700 hover:border-emerald-500 bg-white dark:bg-slate-950/50 hover:bg-slate-50 dark:hover:bg-slate-950 transition text-xs shadow-sm dark:shadow-md"
+        >
+          <div class="flex items-center gap-3">
+            <span class="flex h-8 w-8 items-center justify-center rounded-xl bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/20 text-base shrink-0 group-hover:scale-105 transition">
+              ⭐
+            </span>
+            <div>
+              <p class="font-bold text-slate-800 dark:text-slate-200 group-hover:text-emerald-500 transition">
+                ЗДЕСЬ МОЖЕТ БЫТЬ ВАША РЕКЛАМА ИЛИ СЕРВИС
+              </p>
+              <p class="text-[11px] text-slate-500 mt-0.5">
+                Закрепите ваш инструмент в самом заметном месте перед сотнями пользователей
+              </p>
+            </div>
+          </div>
+          <span class="shrink-0 bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 group-hover:bg-emerald-600 group-hover:text-white group-hover:border-emerald-500 font-semibold px-3 py-1.5 rounded-lg transition text-[11px]">
+            Разместить проект ↗
+          </span>
+        </a>
+      </div>
+      <!-- ============================================================== -->
+      <!-- [КОНЕЦ] ВЕРХНИЙ БЛОК НАД ПОИСКОМ                               -->
+      <!-- ============================================================== -->
+
+      <!-- Заголовок H1 -->
+      <section class="mb-6">
+        <h1 class="text-xl md:text-2xl font-black text-slate-900 dark:text-white tracking-tight">
+          Бесплатные нейросети: реальные тарифы и лимиты без привязки карт
+        </h1>
+        <p class="text-xs md:text-sm text-slate-600 dark:text-slate-400 mt-1 leading-relaxed">
+          База данных обновляется автоматически каждую ночь. Ниже — проверенные лимиты на картинки, видео, код и текст.
+        </p>
+      </section>
+
+      <!-- Блок фильтрации -->
+      <section class="bg-white dark:bg-slate-950/60 p-4 md:p-6 rounded-2xl border border-slate-200 dark:border-slate-800 shadow-sm dark:shadow-xl space-y-4 transition-colors">
+        <!-- Поиск -->
+        <div class="relative">
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Поиск по названию или задаче (например: sonnet, 5 секунд, GPT-4, вектор, svg)..." 
+            class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-300 dark:border-slate-700/80 rounded-xl px-4 py-3 pl-11 text-sm focus:outline-none focus:border-emerald-500 text-slate-900 dark:text-white placeholder-slate-400 dark:placeholder-slate-500 transition"
+          >
+          <span class="absolute left-4 top-3.5 text-slate-400">🔍</span>
+        </div>
+
+        <!-- Категории -->
+        <div class="flex flex-wrap gap-2" id="categoryContainer">
+          <button class="cat-btn active bg-emerald-600 text-white px-3.5 py-1.5 rounded-lg text-xs font-semibold transition" data-cat="all">Все категории</button>
+          <button class="cat-btn bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition border border-slate-200 dark:border-slate-800" data-cat="chat">💬 Текст и чаты</button>
+          <button class="cat-btn bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition border border-slate-200 dark:border-slate-800" data-cat="image">🎨 Картинки</button>
+          <button class="cat-btn bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition border border-slate-200 dark:border-slate-800" data-cat="video">🎬 Видео</button>
+          <button class="cat-btn bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition border border-slate-200 dark:border-slate-800" data-cat="code">💻 Код и dev</button>
+          <button class="cat-btn bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-300 px-3.5 py-1.5 rounded-lg text-xs font-semibold transition border border-slate-200 dark:border-slate-800" data-cat="audio">🎵 Звук и голос</button>
+        </div>
+
+        <!-- Чекбоксы -->
+        <div class="flex flex-wrap items-center gap-3 pt-2 border-t border-slate-200 dark:border-slate-800/80 text-xs text-slate-600 dark:text-slate-300">
+          <span class="text-slate-400 font-semibold uppercase text-[10px] tracking-wider">Фильтры:</span>
+          <label class="flex items-center gap-1.5 cursor-pointer bg-slate-100 dark:bg-slate-900 px-2.5 py-1.5 rounded-md border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition">
+            <input type="checkbox" id="noCardOnly" class="rounded text-emerald-600 focus:ring-0">
+            <span>💳 Без карты</span>
+          </label>
+          <label class="flex items-center gap-1.5 cursor-pointer bg-slate-100 dark:bg-slate-900 px-2.5 py-1.5 rounded-md border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition">
+            <input type="checkbox" id="noWatermarkOnly" class="rounded text-emerald-600 focus:ring-0">
+            <span>💧 Без водяного знака</span>
+          </label>
+          <label class="flex items-center gap-1.5 cursor-pointer bg-slate-100 dark:bg-slate-900 px-2.5 py-1.5 rounded-md border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition">
+            <input type="checkbox" id="dailyResetOnly" class="rounded text-emerald-600 focus:ring-0">
+            <span>🔄 Обновляется каждый день</span>
+          </label>
+          <label class="flex items-center gap-1.5 cursor-pointer bg-slate-100 dark:bg-slate-900 px-2.5 py-1.5 rounded-md border border-slate-200 dark:border-slate-800 hover:border-slate-400 dark:hover:border-slate-700 transition">
+            <input type="checkbox" id="hasFreeOnly" class="rounded text-emerald-600 focus:ring-0">
+            <span>✅ Только с бесплатным тарифом</span>
+          </label>
+        </div>
+      </section>
+
+      <!-- Сетка карточек -->
+      <section id="grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+        <div class="col-span-full py-16 text-center text-slate-400">
+          Загрузка каталога... ⏳
+        </div>
+      </section>
+
+      <!-- FAQ Аккордеон -->
+      <section class="mt-16 border-t border-slate-200 dark:border-slate-800 pt-10">
+        <h2 class="text-xl md:text-2xl font-black text-slate-900 dark:text-white mb-2">
+          Часто задаваемые вопросы о бесплатных нейросетях
+        </h2>
+        <p class="text-xs text-slate-500 mb-6">Ответы на популярные вопросы о тарифах, водяных знаках и скрытых условиях</p>
+
+        <div class="space-y-3 text-xs md:text-sm">
+          <details class="group bg-white dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-xl p-4 transition [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+            <summary class="font-bold text-slate-800 dark:text-slate-200 flex justify-between items-center group-open:text-emerald-500">
+              <span>Где генерировать видео бесплатно и без водяного знака?</span>
+              <span class="transition group-open:rotate-180">▾</span>
+            </summary>
+            <p class="text-slate-600 dark:text-slate-400 mt-3 leading-relaxed">
+              Большинство сервисов (Kling, Luma, Runway, Pika) добавляют логотип на бесплатном тарифе. Исключением являются тестовые фазы новых азиатских моделей (например, Hailuo / MiniMax в открытой бете) и встроенные генераторы в видеоредакторах вроде CapCut.
+            </p>
+          </details>
+
+          <details class="group bg-white dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-xl p-4 transition [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+            <summary class="font-bold text-slate-800 dark:text-slate-200 flex justify-between items-center group-open:text-emerald-500">
+              <span>Чем заменить Midjourney бесплатно?</span>
+              <span class="transition group-open:rotate-180">▾</span>
+            </summary>
+            <p class="text-slate-600 dark:text-slate-400 mt-3 leading-relaxed">
+              Лучшие бесплатные альтернативы на сегодня — <strong>Leonardo.ai</strong> (дает 150 кредитов ежедневно), <strong>Ideogram 2.0</strong> (отлично справляется с текстом и фотостилем, 10 кредитов в день) и модели семейства <strong>FLUX.1</strong> на Tensor.art и Dezgo.
+            </p>
+          </details>
+
+          <details class="group bg-white dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-xl p-4 transition [&_summary::-webkit-details-marker]:hidden cursor-pointer">
+            <summary class="font-bold text-slate-800 dark:text-slate-200 flex justify-between items-center group-open:text-emerald-500">
+              <span>Как сайт проверяет актуальность лимитов?</span>
+              <span class="transition group-open:rotate-180">▾</span>
+            </summary>
+            <p class="text-slate-600 dark:text-slate-400 mt-3 leading-relaxed">
+              Наш автоматический робот обходит страницы тарифов всех 50 сервисов каждую ночь. Если сервис урезает халяву или вводит обязательную привязку карты — карточка на сайте обновляется автоматически.
+            </p>
+          </details>
+        </div>
+      </section>
+
+      <!-- Футер и связь с админом -->
+      <footer class="mt-16 border-t border-slate-200 dark:border-slate-800/80 pt-10 pb-6 transition-colors">
+        <div class="bg-white dark:bg-slate-950/70 border border-slate-200 dark:border-slate-800 rounded-2xl p-6 mb-8 shadow-sm">
+          <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+            <div class="max-w-xl">
+              <h3 class="text-base font-bold text-slate-900 dark:text-white flex items-center gap-2">
+                <span>📬 Связь с автором проекта</span>
+                <span class="text-[10px] bg-emerald-500/10 text-emerald-600 dark:text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded font-medium">Отвечаю быстро</span>
+              </h3>
+              <p class="text-xs text-slate-600 dark:text-slate-400 mt-1.5 leading-relaxed">
+                Нашли ошибку в лимитах? Сервис изменил условия? Или хотите разместить проект в рекламных слотах — напишите мне.
+              </p>
+            </div>
+            <div class="flex flex-wrap items-center gap-2.5 w-full md:w-auto">
+              <a href="https://t.me/your_telegram" target="_blank" rel="noopener" class="flex-1 md:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-sky-500 hover:bg-sky-600 text-white text-xs font-bold transition shadow-sm">
+                <span>✈️</span>
+                <span>Написать в Telegram</span>
+              </a>
+              <a href="mailto:contact@your-domain.com" class="flex-1 md:flex-initial inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-slate-100 dark:bg-slate-900 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-300 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-xs font-semibold transition">
+                <span>✉️</span>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-xs text-slate-500 space-y-1">
+          <p>© 2026 Честный AI-каталог. Все товарные знаки принадлежат их правообладателям.</p>
+        </div>
+      </footer>
+
+    </main>
+
+    <!-- ============================================================== -->
+    <!-- [НАЧАЛО] ПРАВЫЙ БОКОВОЙ БЛОК (Ctrl+F: RIGHT_SIDE_SLOT)        -->
+    <!-- ============================================================== -->
+    <aside class="hidden xl:block w-48 shrink-0">
+      <div class="sticky top-24">
+        <a 
+          href="https://t.me/your_telegram" 
+          target="_blank" 
+          rel="noopener"
+          class="collab-box group flex flex-col items-center justify-center p-4 h-[550px] rounded-2xl border-2 border-dashed border-slate-300 dark:border-slate-800 hover:border-emerald-500 bg-white/40 dark:bg-slate-950/40 hover:bg-slate-100 dark:hover:bg-slate-950 transition text-center"
+        >
+          <span class="text-2xl mb-3 opacity-70 group-hover:scale-110 transition">🎯</span>
+          <span class="text-xs font-bold text-slate-700 dark:text-slate-300 group-hover:text-emerald-500 transition uppercase tracking-wider mb-2">
+            Партнёрский слот
+          </span>
+          <span class="text-[11px] text-slate-500 leading-relaxed px-2">
+            Баннер, Telegram-канал или спецпредложение
+          </span>
+          <span class="mt-4 text-[10px] text-emerald-600 dark:text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 px-2 py-1 rounded font-medium">
+            Свободно • Клик
+          </span>
+        </a>
+      </div>
+    </aside>
+    <!-- ============================================================== -->
+    <!-- [КОНЕЦ] ПРАВЫЙ БОКОВОЙ БЛОК                                    -->
+    <!-- ============================================================== -->
+
+  </div>
+
+  <script>
+    let allTools = [];
+    let currentCategory = 'all';
+
+    const categoryLabels = { chat: "💬 Текст", image: "🎨 Картинки", video: "🎬 Видео", code: "💻 Код", audio: "🎵 Аудио" };
+
+    // Загрузка данных из data.json
+    async function loadCatalogData() {
+      try {
+        const res = await fetch('data.json');
+        if (!res.ok) throw new Error("HTTP error " + res.status);
+        allTools = await res.json();
+      } catch (err) {
+        console.warn("data.json пока не найден или заблокирован локально, используем резервную копию", err);
+        allTools = getBackupTools(); // встроенный бэкап, если data.json еще не сгенерирован
+      }
+      renderCatalog();
+    }
+
+    function renderCatalog() {
+      const search = document.getElementById('searchInput').value.toLowerCase().trim();
+      const noCard = document.getElementById('noCardOnly').checked;
+      const noWatermark = document.getElementById('noWatermarkOnly').checked;
+      const dailyReset = document.getElementById('dailyResetOnly').checked;
+      const hasFree = document.getElementById('hasFreeOnly').checked;
+
+      const filtered = allTools.filter(t => {
+        if (currentCategory !== 'all' && t.cat !== currentCategory) return false;
+        
+        const searchCorpus = (t.name + " " + t.freeVerdict + " " + (t.search || '')).toLowerCase();
+        if (search && !searchCorpus.includes(search)) return false;
+
+        if (noCard && t.card) return false;
+        if (noWatermark && t.watermark) return false;
+        if (dailyReset && t.reset !== 'Ежедневно') return false;
+        if (hasFree && !t.hasFree) return false;
+
+        return true;
+      });
+
+      document.getElementById('count').textContent = filtered.length;
+      const grid = document.getElementById('grid');
+      grid.innerHTML = '';
+
+      if (filtered.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-500">
+            Ничего не найдено по этим фильтрам 😔 Попробуйте изменить параметры поиска.
+          </div>
+        `;
+        return;
+      }
+
+      filtered.forEach(t => {
+        const card = document.createElement('article');
+        card.className = "tool-card bg-white dark:bg-slate-950/80 border border-slate-200 dark:border-slate-800 rounded-2xl p-5 flex flex-col justify-between hover:border-emerald-500 transition shadow-sm dark:shadow-lg";
+
+        card.innerHTML = `
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-3">
+              <span class="text-[11px] font-mono tracking-wider uppercase text-slate-500 dark:text-slate-400 bg-slate-100 dark:bg-slate-900 px-2 py-0.5 rounded border border-slate-200 dark:border-slate-800">
+                ${categoryLabels[t.cat] || t.cat}
+              </span>
+              <span class="text-xs font-semibold ${t.hasFree ? 'text-emerald-600 dark:text-emerald-400' : 'text-rose-500'}">
+                ${t.hasFree ? '● Бесплатно' : '✕ Только платно'}
+              </span>
+            </div>
+
+            <h2 class="text-lg font-bold text-slate-900 dark:text-white mb-2">${t.name}</h2>
+
+            <div class="bg-slate-50 dark:bg-slate-900/90 rounded-xl p-3 border border-slate-200 dark:border-slate-800/80 mb-4 text-xs leading-relaxed text-slate-600 dark:text-slate-300">
+              <strong class="text-emerald-600 dark:text-emerald-400 block mb-1">Что реально дают:</strong>
+              ${t.freeVerdict}
+            </div>
+
+            <div class="flex flex-wrap gap-1.5 mb-5 text-[11px]">
+              <span class="px-2 py-0.5 rounded-md border ${t.card ? 'bg-rose-50 dark:bg-rose-950/30 text-rose-700 dark:text-rose-300 border-rose-200 dark:border-rose-800/40' : 'bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800/40'}">
+                ${t.card ? '⚠️ Нужна карта' : '💳 Без карты'}
+              </span>
+              <span class="px-2 py-0.5 rounded-md border ${t.watermark ? 'bg-amber-50 dark:bg-amber-950/30 text-amber-700 dark:text-amber-300 border-amber-200 dark:border-amber-800/40' : 'bg-emerald-50 dark:bg-emerald-950/30 text-emerald-700 dark:text-emerald-300 border-emerald-200 dark:border-emerald-800/40'}">
+                ${t.watermark ? '🏷️ С водяным знаком' : '💧 Без знака'}
+              </span>
+              <span class="px-2 py-0.5 rounded-md border bg-slate-100 dark:bg-slate-900 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-800">
+                🔄 ${t.reset}
+              </span>
+            </div>
+          </div>
+
+          <a 
+            href="${t.url}" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="w-full text-center py-2.5 px-4 rounded-xl text-xs font-bold transition bg-slate-100 dark:bg-slate-900 hover:bg-emerald-600 dark:hover:bg-emerald-600 text-slate-800 dark:text-slate-200 hover:text-white border border-slate-200 dark:border-slate-800 hover:border-emerald-500"
+          >
+            Перейти в сервис ↗
+          </a>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // Слушатели событий
+    document.getElementById('searchInput').addEventListener('input', renderCatalog);
+    document.getElementById('noCardOnly').addEventListener('change', renderCatalog);
+    document.getElementById('noWatermarkOnly').addEventListener('change', renderCatalog);
+    document.getElementById('dailyResetOnly').addEventListener('change', renderCatalog);
+    document.getElementById('hasFreeOnly').addEventListener('change', renderCatalog);
+
+    document.querySelectorAll('.cat-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.cat-btn').forEach(b => {
+          b.classList.remove('bg-emerald-600', 'text-white');
+          b.classList.add('bg-slate-100', 'dark:bg-slate-900', 'text-slate-700', 'dark:text-slate-300');
+        });
+        btn.classList.add('bg-emerald-600', 'text-white');
+        btn.classList.remove('bg-slate-100', 'dark:bg-slate-900', 'text-slate-700', 'dark:text-slate-300');
+        currentCategory = btn.dataset.cat;
+        renderCatalog();
+      });
+    });
+
+    // Тёмная/светлая тема (по умолчанию dark)
+    const themeToggle = document.getElementById('themeToggle');
+    const themeIcon = document.getElementById('themeIcon');
+    const htmlElement = document.documentElement;
+
+    const savedTheme = localStorage.getItem('site_theme') || 'dark';
+    if (savedTheme === 'light') {
+      htmlElement.classList.remove('dark');
+      themeIcon.textContent = '☀️';
+    } else {
+      htmlElement.classList.add('dark');
+      themeIcon.textContent = '🌙';
+    }
+
+    themeToggle.addEventListener('click', () => {
+      const isDark = htmlElement.classList.toggle('dark');
+      themeIcon.textContent = isDark ? '🌙' : '☀️';
+      localStorage.setItem('site_theme', isDark ? 'dark' : 'light');
+    });
+
+    // Резервная копия на случай первого открытия без data.json
+    function getBackupTools() {
+      return [
+        { name: "DeepSeek Chat", cat: "chat", freeVerdict: "100% бесплатно и без лимитов. Доступны модели V3 и reasoning-модель R1.", card: false, watermark: false, reset: "Безлимит", hasFree: true, url: "https://chat.deepseek.com" },
+        { name: "ChatGPT Free", cat: "chat", freeVerdict: "~10-16 запросов каждые 3 часа к GPT-4o, затем сброс на mini. 2 картинки DALL-E в сутки.", card: false, watermark: false, reset: "Каждые 3 ч.", hasFree: true, url: "https://chatgpt.com" },
+        { name: "Kling AI", cat: "video", freeVerdict: "66 ежедневных баллов при входе. Хватает ровно на 6 коротких видео по 5 секунд в день.", card: false, watermark: true, reset: "Ежедневно", hasFree: true, url: "https://klingai.com" },
+        { name: "Leonardo.ai", cat: "image", freeVerdict: "150 токенов каждые 24 часа. Это примерно 15-25 картинок. Без водяного знака.", card: false, watermark: false, reset: "Ежедневно", hasFree: true, url: "https://leonardo.ai" },
+        { name: "Cursor IDE", cat: "code", freeVerdict: "14 дней триала без карты. Затем бесплатный режим: 50 запросов в месяц + автокомплит.", card: false, watermark: false, reset: "Ежемесячно", hasFree: true, url: "https://cursor.com" },
+        { name: "Suno AI", cat: "audio", freeVerdict: "50 бесплатных кредитов в сутки (ровно 10 готовых песен в день). Без карты.", card: false, watermark: false, reset: "Ежедневно", hasFree: true, url: "https://suno.com" }
+      ];
+    }
+
+    // Запуск
+    loadCatalogData();
+  </script>
+</body>
+</html>
