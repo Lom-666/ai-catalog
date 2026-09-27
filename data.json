@@ -1,14 +1,15 @@
 [
   {
-    "name": "DeepSeek Chat",
+    "name": "DeepSeek",
     "cat": "chat",
-    "freeVerdict": "100% бесплатно и без лимитов. Доступны модели V3 и reasoning-модель R1.",
+    "freeVerdict": "Сервис предлагает бесплатные попытки, но точное количество не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "chat, чат",
     "url": "https://chat.deepseek.com",
-    "search": "deepseek дипсик chat v3 r1 reasoning"
+    "error_count": 0
   },
   {
     "name": "ChatGPT Free",
@@ -22,26 +23,28 @@
     "search": "chatgpt gpt openai чатгпт gpt-4o dalle"
   },
   {
-    "name": "Claude (Anthropic)",
+    "name": "Claude",
     "cat": "chat",
-    "freeVerdict": "~10-25 сообщений к Claude 3.5 Sonnet каждые 5 часов. Лимит плавает от общей нагрузки серверов.",
+    "freeVerdict": "Пользователи могут попробовать Claude бесплатно без ограничений по времени, но с определенными лимитами на использование.",
     "card": false,
     "watermark": false,
-    "reset": "Каждые 5 ч.",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI, chatbot, Claude, искусственный интеллект, чат",
     "url": "https://claude.ai",
-    "search": "claude клод sonnet anthropic"
+    "error_count": 0
   },
   {
     "name": "Google Gemini",
     "cat": "chat",
-    "freeVerdict": "Бесплатный быстрый чат на базе 1.5 Flash без жестких ограничений + доступ к экспериментальным моделям.",
+    "freeVerdict": "Сервис предоставляет возможность бесплатного использования, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI assistant, Gemini, Google, чат, искусственный интеллект",
     "url": "https://gemini.google.com",
-    "search": "gemini google джемини гугл flash pro"
+    "error_count": 0
   },
   {
     "name": "Perplexity AI",
@@ -57,244 +60,266 @@
   {
     "name": "Microsoft Copilot",
     "cat": "chat",
-    "freeVerdict": "Бесплатный доступ к GPT-4o для поиска и текста + 15 бустов для генерации картинок ежедневно.",
+    "freeVerdict": "Пользователи могут бесплатно использовать сервис с ограничениями, точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "Copilot, Microsoft, чат, голосовые команды",
     "url": "https://copilot.microsoft.com",
-    "search": "copilot копилот bing microsoft майкрософт"
+    "error_count": 0
   },
   {
-    "name": "Mistral Le Chat",
+    "name": "Mistral Chat",
     "cat": "chat",
-    "freeVerdict": "Полностью бесплатный доступ к моделям Mistral Large 2, Pixtral и кодеру Codestral без привязки карт.",
+    "freeVerdict": "Сервис предоставляет возможность бесплатного использования, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "chat, чат",
     "url": "https://chat.mistral.ai",
-    "search": "mistral мистраль le chat codestral pixtral"
+    "error_count": 0
   },
   {
-    "name": "Groq Cloud",
-    "cat": "chat",
-    "freeVerdict": "Сверхбыстрый запуск открытых моделей (Llama 3.3, Gemma, DeepSeek R1). Высокие бесплатные лимиты в минуту.",
+    "name": "Groq",
+    "cat": "code",
+    "freeVerdict": "Groq предлагает возможность начать использовать платформу без предварительных затрат, однако точное количество бесплатных попыток или кредитов не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежеминутно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI inference, cloud computing, Groq, AI, inference, neocloud, GPU",
     "url": "https://groq.com",
-    "search": "groq грок llama fast speed"
+    "error_count": 0
   },
   {
-    "name": "Poe by Quora",
+    "name": "Poe",
     "cat": "chat",
-    "freeVerdict": "3000 ежедневных вычислительных баллов. Хватает на десятки запросов к базовым ботам и 1-2 к топовым.",
+    "freeVerdict": "Пользователи могут общаться с различными AI-ботами, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI chat, Poe, GPT, Claude, Gemini, Kimi, Grok, общение, чат",
     "url": "https://poe.com",
-    "search": "poe по quora боты агрегатор"
+    "error_count": 0
   },
   {
     "name": "HuggingChat",
     "cat": "chat",
-    "freeVerdict": "100% открытый бесплатный интерфейс для работы с новейшими Open-Source моделями без ограничений.",
+    "freeVerdict": "Сервис предоставляет бесплатный доступ к чатам с AI моделями без ограничений на количество попыток.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI chat, Hugging Face, open source, ML Intern, чат, AI модели",
     "url": "https://huggingface.co/chat",
-    "search": "huggingchat хаггинг фейс open source"
+    "error_count": 0
   },
   {
-    "name": "You.com",
-    "cat": "chat",
-    "freeVerdict": "Базовый ИИ-поиск безлимитно. Включает несколько бесплатных запросов к умным моделям в день.",
+    "name": "You.com Web Search APIs",
+    "cat": "code",
+    "freeVerdict": "Вы можете получить бесплатную оценку сервиса, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "web search API, AI, искусственный интеллект, API для поиска",
     "url": "https://you.com",
-    "search": "youcom юком search web"
+    "error_count": 0
   },
   {
-    "name": "Leonardo.ai",
+    "name": "Leonardo.Ai",
     "cat": "image",
-    "freeVerdict": "150 токенов каждые 24 часа. Хватает примерно на 15-25 генераций изображений. Водяных знаков нет.",
+    "freeVerdict": "Сервис предоставляет 10 бесплатных кредитов для генерации изображений.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Ежемесячно",
     "hasFree": true,
+    "search": "generative AI, image generation, AI art, искусственный интеллект, генерация изображений, искусство",
     "url": "https://leonardo.ai",
-    "search": "leonardo леонардо генератор картинок"
+    "error_count": 0
   },
   {
     "name": "Ideogram",
     "cat": "image",
-    "freeVerdict": "10 бесплатных кредитов в сутки (40 картинок в медленной очереди). Лучший генератор четкого текста на артах.",
+    "freeVerdict": "Идеограмма предлагает бесплатный доступ к своим инструментам, однако точное количество бесплатных попыток не указано на сайте.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI, image generation, editing, visual intelligence, ИИ, генерация изображений, редактирование",
     "url": "https://ideogram.ai",
-    "search": "ideogram идеограм текст надписи"
+    "error_count": 0
   },
   {
-    "name": "Recraft.ai",
+    "name": "Recraft",
     "cat": "image",
-    "freeVerdict": "50 бесплатных кредитов ежедневно. Генерирует растровую графику, иконки и чистый векторный SVG.",
+    "freeVerdict": "Сервис предлагает бесплатный доступ к функционалу, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI image generation, AI для дизайнеров, генерация изображений, искусственный интеллект",
     "url": "https://www.recraft.ai",
-    "search": "recraft рекрафт вектор svg иконки 3d"
+    "error_count": 0
   },
   {
-    "name": "Krea.ai",
-    "cat": "image",
-    "freeVerdict": "Генерация картинок в реальном времени + улучшение резкости (Upscale). Ежедневное начисление базовых кредитов.",
+    "name": "Krea",
+    "cat": "video",
+    "freeVerdict": "Сервис предоставляет возможность бесплатного использования, однако точное количество бесплатных попыток или кредитов не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "video generation, AI tools, Krea, создание видео, AI инструменты",
     "url": "https://www.krea.ai",
-    "search": "krea креа realtime upscale апскейл"
+    "error_count": 0
   },
   {
     "name": "Tensor.Art",
     "cat": "image",
-    "freeVerdict": "100 ежедневных кредитов при входе. Доступны сотни чекпоинтов SDXL и FLUX без установки на ПК.",
+    "freeVerdict": "Сервис предлагает бесплатное создание изображений без ограничений на количество попыток.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "image generator, AI tools, character design, anime, photorealistic",
     "url": "https://tensor.art",
-    "search": "tensor art тензор flux stable diffusion"
+    "error_count": 0
   },
   {
     "name": "Midjourney",
     "cat": "image",
-    "freeVerdict": "Бесплатный триал полностью закрыт. Генерация возможна строго по платной подписке от $10/месяц.",
-    "card": true,
-    "watermark": false,
-    "reset": "Нет",
-    "hasFree": false,
-    "url": "https://www.midjourney.com",
-    "search": "midjourney миджорни mj платно"
-  },
-  {
-    "name": "Playground AI",
-    "cat": "image",
-    "freeVerdict": "Создание до 50 изображений в день на бесплатном тарифе с небольшими ограничениями по очереди.",
+    "freeVerdict": "Пользователи могут получить ограниченное количество бесплатных попыток для генерации изображений.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Ежемесячно",
     "hasFree": true,
+    "search": "AI art, генерация изображений",
+    "url": "https://www.midjourney.com",
+    "error_count": 0
+  },
+  {
+    "name": "Playground",
+    "cat": "image",
+    "freeVerdict": "Сервис предлагает бесплатный доступ к инструментам дизайна без ограничений на количество попыток.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "AI design, logos, stickers, t-shirts, social media, искусственный интеллект, дизайн, логотипы, наклейки, футболки, социальные сети",
     "url": "https://playground.com",
-    "search": "playground плейграунд sd canvas"
+    "error_count": 0
   },
   {
     "name": "SeaArt AI",
-    "cat": "image",
-    "freeVerdict": "Ежедневный бонус около 150 монет выносливости. Хватает на пару десятков картинок и базовые апскейлы.",
+    "cat": "image, video",
+    "freeVerdict": "Пользователи могут создавать изображения и видео с помощью бесплатных инструментов, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI tools, community, image creation, video creation, искусственный интеллект, создание изображений, создание видео",
     "url": "https://www.seaart.ai",
-    "search": "seaart сиарт аниме фото"
+    "error_count": 0
   },
   {
     "name": "Dezgo",
     "cat": "image",
-    "freeVerdict": "Полностью бесплатный запуск моделей Stable Diffusion и FLUX без обязательной регистрации. Ограничена скорость.",
+    "freeVerdict": "Сервис предлагает бесплатные инструменты для генерации изображений и видео, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI image generator, video generator, текст в видео, изображение в видео, текст в изображение, изображение в изображение, инструменты для изображений",
     "url": "https://dezgo.com",
-    "search": "dezgo дезго без регистрации flux"
+    "error_count": 0
   },
   {
     "name": "Adobe Firefly",
     "cat": "image",
-    "freeVerdict": "25 генеративных кредитов в месяц при наличии бесплатного Adobe ID. Без водяного знака.",
+    "freeVerdict": "Сервис предлагает бесплатные возможности, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежемесячно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI creative studio, генерация изображений, видео, аудио, Adobe Firefly, искусственный интеллект",
     "url": "https://firefly.adobe.com",
-    "search": "firefly адобе фаерфлай adobe"
+    "error_count": 0
   },
   {
     "name": "Bing Image Creator",
     "cat": "image",
-    "freeVerdict": "15 быстрых бустов DALL-E 3 в сутки через аккаунт Microsoft. После траты бустов работает медленнее.",
+    "freeVerdict": "Сервис предоставляет возможность создавать изображения бесплатно, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI image generator, генератор изображений ИИ",
     "url": "https://www.bing.com/create",
-    "search": "bing creator бинг dalle 3 микрософт"
+    "error_count": 0
   },
   {
-    "name": "Freepik Pikaso",
+    "name": "Magnific",
     "cat": "image",
-    "freeVerdict": "До 20 генераций в день в режиме наброска на холсте (Realtime sketch to image).",
+    "freeVerdict": "Пользователи могут воспользоваться бесплатными инструментами, однако точное количество бесплатных попыток не указано.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI tools, image generator, background remover, генератор изображений, инструменты ИИ",
     "url": "https://www.freepik.com/pikaso",
-    "search": "freepik pikaso фрипик скетч"
+    "error_count": 0
   },
   {
     "name": "Clipdrop",
     "cat": "image",
-    "freeVerdict": "Бесплатное удаление фона, чистка объектов и замена света с ограничением разрешения и очередью.",
+    "freeVerdict": "Сервис предлагает бесплатное удаление фона с изображений. Остальные функции могут иметь ограничения на бесплатное использование.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "image editing, background removal, AI tools, редактирование изображений, удаление фона, инструменты ИИ",
     "url": "https://clipdrop.co",
-    "search": "clipdrop клипдроп удаление фона ретушь"
+    "error_count": 0
   },
   {
     "name": "Kling AI",
     "cat": "video",
-    "freeVerdict": "66 ежедневных баллов при входе. Хватает ровно на 6 коротких видео по 5 секунд в день. Есть водяной знак.",
+    "freeVerdict": "Пользователи могут попробовать сервис бесплатно, но точное количество бесплатных попыток не указано на сайте.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI video generator, видео генератор, AI image generator, генератор изображений",
     "url": "https://klingai.com",
-    "search": "klingai клинг генерация видео 5 секунд"
+    "error_count": 0
   },
   {
-    "name": "Luma Dream Machine",
+    "name": "Luma",
     "cat": "video",
-    "freeVerdict": "Около 30 бесплатных генераций видео в месяц в стандартной очереди. Есть водяной знак.",
+    "freeVerdict": "Сервис предоставляет 10,000 кредитов для бесплатного использования.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежемесячно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "creative agents, collaboration, workflow, AI, Luma, креативные агенты, сотрудничество, рабочий процесс, ИИ",
     "url": "https://lumalabs.ai/dream-machine",
-    "search": "luma dream machine лума видео"
+    "error_count": 0
   },
   {
-    "name": "Hailuo AI (MiniMax)",
+    "name": "Hailuo AI",
     "cat": "video",
-    "freeVerdict": "Бесплатная генерация кинематографичных 6-секундных роликов без жестких лимитов во время открытой беты.",
+    "freeVerdict": "Пользователи получают 3,000 бесплатных кредитов для начала создания видео.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI video generator, видео генератор, создание видео, MiniMax H3",
     "url": "https://hailuoai.video",
-    "search": "hailuo minimax хайлуо кинематограф"
+    "error_count": 0
   },
   {
     "name": "Runway",
@@ -308,26 +333,28 @@
     "search": "runway ранвей gen-2 gen-3 видеомонтаж"
   },
   {
-    "name": "Pika.art",
-    "cat": "video",
-    "freeVerdict": "Начальный запас кредитов + 30 ежедневных бесплатных баллов. Добавляет логотип Pika на результат.",
+    "name": "Pika",
+    "cat": "image",
+    "freeVerdict": "Пользователи могут воспользоваться бесплатными возможностями, однако точное количество бесплатных попыток не указано на сайте.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI creative tools, видео, изображения, аудио, искусственный интеллект, креативные приложения",
     "url": "https://pika.art",
-    "search": "pika пика анимация эффекты pikaffect"
+    "error_count": 0
   },
   {
-    "name": "Viggle AI",
+    "name": "Viggle",
     "cat": "video",
-    "freeVerdict": "Бесплатная замена персонажа на видео по шаблону движений (motion dance) через Discord и веб-кабинет.",
+    "freeVerdict": "Пользователи могут попробовать сервис бесплатно, но точное количество бесплатных попыток не указано.",
     "card": false,
-    "watermark": true,
-    "reset": "Ежедневно",
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "3D motion, character animation, meme maker, motion capture, games, API, видеомонтаж, анимация, создание мемов",
     "url": "https://viggle.ai",
-    "search": "viggle виггл танец замена персонажа мем"
+    "error_count": 0
   },
   {
     "name": "HeyGen",
@@ -352,15 +379,16 @@
     "search": "d-id ди айди оживление фото аватар"
   },
   {
-    "name": "Kaiber.ai",
+    "name": "Kaiber",
     "cat": "video",
-    "freeVerdict": "Около 60-100 кредитов на 7 дней триала для стилизации видео и анимации аудио. Требует выбора плана.",
-    "card": true,
-    "watermark": true,
-    "reset": "Разово",
+    "freeVerdict": "Предоставляется 5 дней полного доступа для тестирования сервиса.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
     "hasFree": true,
+    "search": "music video, AI images, video editing, музыкальное видео, AI изображения, видеомонтаж",
     "url": "https://kaiber.ai",
-    "search": "kaiber кайбер видеоарт клипы"
+    "error_count": 0
   },
   {
     "name": "InVideo AI",
@@ -374,15 +402,16 @@
     "search": "invideo инвидео монтаж youtube shorts ролики"
   },
   {
-    "name": "CapCut AI",
+    "name": "CapCut",
     "cat": "video",
-    "freeVerdict": "Множество бесплатных встроенных ИИ-функций (автосубтитры, удаление фона, озвучка) без обязательной подписки.",
+    "freeVerdict": "CapCut предлагает бесплатный доступ ко всем функциям без необходимости ввода данных кредитной карты. Вы можете редактировать видео и изображения без ограничений.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "video editor, AI tools, online editing, редактор видео, AI инструменты, онлайн редактирование",
     "url": "https://www.capcut.com",
-    "search": "capcut капкут автосубтитры тиктоки монтаж"
+    "error_count": 0
   },
   {
     "name": "Cursor IDE",
@@ -418,48 +447,52 @@
     "search": "windsurf codeium кодиум автокомплит ide"
   },
   {
-    "name": "Bolt.new",
+    "name": "Bolt AI builder",
     "cat": "code",
-    "freeVerdict": "Ограниченное количество ежедневных токенов на создание и запуск полноценных веб-приложений прямо в браузере.",
+    "freeVerdict": "Сервис предлагает бесплатный доступ для начала работы, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI builder, website builder, app builder, prototyping, no code, small business, enterprise",
     "url": "https://bolt.new",
-    "search": "bolt болт fullstack web браузер"
+    "error_count": 0
   },
   {
-    "name": "Lovable.dev",
+    "name": "Lovable",
     "cat": "code",
-    "freeVerdict": "Несколько бесплатных генераций для создания веб-сервисов на старте. Дальше требует подписку.",
+    "freeVerdict": "Сервис предлагает бесплатный старт для создания проектов, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Разово",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "app builder, website builder, software development, создание приложений, разработка программного обеспечения",
     "url": "https://lovable.dev",
-    "search": "lovable ловабл nocode веб-приложения"
+    "error_count": 0
   },
   {
     "name": "GitHub Copilot",
     "cat": "code",
-    "freeVerdict": "Официально платная подписка ($10/мес). Бесплатно доступен только студентам (GitHub Education) и мейнтейнерам open-source.",
-    "card": true,
+    "freeVerdict": "GitHub Copilot предлагает бесплатный тариф с ограниченной функциональностью для индивидуальных разработчиков, но точное количество бесплатных попыток не указано.",
+    "card": false,
     "watermark": false,
     "reset": "Нет",
-    "hasFree": false,
+    "hasFree": true,
+    "search": "AI coding assistant, GitHub Copilot, программирование, разработка, код",
     "url": "https://github.com/features/copilot",
-    "search": "copilot github гитхаб кодер vs code"
+    "error_count": 0
   },
   {
     "name": "Supermaven",
     "cat": "code",
-    "freeVerdict": "Бесплатная версия с быстрым автодополнением кода (контекст 300k токенов) без ограничения срока действия.",
+    "freeVerdict": "Сервис предлагает бесплатный тариф, который полностью бесплатен, но с ограничением на 7-дневное хранение данных.",
     "card": false,
     "watermark": false,
-    "reset": "Безлимит",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI code completion, бесплатный код, инструменты для разработчиков, Supermaven",
     "url": "https://supermaven.com",
-    "search": "supermaven супермавен автокомплит скорость"
+    "error_count": 0
   },
   {
     "name": "Replit",
@@ -486,35 +519,38 @@
   {
     "name": "Google Colab",
     "cat": "code",
-    "freeVerdict": "Бесплатный доступ к облачным GPU T4 для запуска своих моделей и скриптов с ограничением по времени сессии.",
+    "freeVerdict": "Google Colab предоставляет бесплатный доступ к вычислительным ресурсам, включая GPU, без ограничений на количество сессий, но с ограничением по времени работы сессий.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "notebook, Jupyter, Python, машинное обучение, data science",
     "url": "https://colab.research.google.com",
-    "search": "colab колаб jupyter gpu t4 гугл"
+    "error_count": 0
   },
   {
-    "name": "Suno AI",
+    "name": "Suno",
     "cat": "audio",
-    "freeVerdict": "50 бесплатных кредитов в сутки (ровно 10 готовых песен или 5 пар генераций). Без коммерческих прав.",
+    "freeVerdict": "Бесплатный тариф предоставляет 50 кредитов в день для создания музыки.",
     "card": false,
     "watermark": false,
     "reset": "Ежедневно",
     "hasFree": true,
+    "search": "AI music generator, музыка, генератор музыки, создание музыки",
     "url": "https://suno.com",
-    "search": "suno суно музыка песни генерация треков"
+    "error_count": 0
   },
   {
     "name": "Udio",
     "cat": "audio",
-    "freeVerdict": "10 ежедневных кредитов + 100 бонусных кредитов в месяц. Высокое качество генерации вокала.",
+    "freeVerdict": "Udio предлагает бесплатный пробный период, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "AI music generator, music creation, audio editing, генератор музыки, создание музыки, редактирование аудио",
     "url": "https://www.udio.com",
-    "search": "udio удиo музыка треки вокал"
+    "error_count": 0
   },
   {
     "name": "ElevenLabs",
@@ -530,13 +566,14 @@
   {
     "name": "Fish Audio",
     "cat": "audio",
-    "freeVerdict": "Бесплатные токены на озвучку и быстрое клонирование голоса по короткому 10-секундному образцу.",
+    "freeVerdict": "Сервис предлагает бесплатную пробную версию, но точное количество бесплатных минут не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
+    "search": "text to speech, voice cloning, speech to text, аудиосинтез, клонирование голоса",
     "url": "https://fish.audio",
-    "search": "fish audio фиш клонирование голоса tts"
+    "error_count": 0
   },
   {
     "name": "Moises.ai",
@@ -548,5 +585,161 @@
     "hasFree": true,
     "url": "https://moises.ai",
     "search": "moises моисес разделение вокала минусовка"
+  },
+  {
+    "name": "ChatGPT",
+    "cat": "chat",
+    "freeVerdict": "Бесплатный тариф предоставляет неограниченные текстовые чаты с GPT-5.6 Luna, но с ограничениями на количество сообщений и доступ к другим функциям.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "ChatGPT, бесплатный тариф, pricing, OpenAI, GPT",
+    "url": "https://openai.com/chatgpt/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Perplexity Pro",
+    "cat": "chat",
+    "freeVerdict": "Пользователи получают 40 бесплатных кредитов при регистрации. Также доступны дополнительные бонусные кредиты в зависимости от выбранного плана.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "AI models, research, credits, subscription, Perplexity, ИИ модели, исследование, кредиты, подписка, Перплексити",
+    "url": "https://www.perplexity.ai/pro",
+    "error_count": 0
+  },
+  {
+    "name": "Runway AI",
+    "cat": "video",
+    "freeVerdict": "Предоставляется 125 кредитов для бесплатного использования инструментов AI. Эти кредиты можно использовать один раз.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "AI tools, video generation, image generation, credits, Runway, видео, генерация изображений",
+    "url": "https://runwayml.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "HeyGen",
+    "cat": "video",
+    "freeVerdict": "Бесплатный тариф предоставляет 3 видео в месяц продолжительностью до 1 минуты.",
+    "card": false,
+    "watermark": false,
+    "reset": "Ежемесячно",
+    "hasFree": true,
+    "search": "AI video generator, video creation, HeyGen, генерация видео, создание видео",
+    "url": "https://www.heygen.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "D-ID Studio",
+    "cat": "video",
+    "freeVerdict": "Сервис предлагает 5 бесплатных минут для использования.",
+    "card": false,
+    "watermark": false,
+    "reset": "Ежемесячно",
+    "hasFree": true,
+    "search": "D-ID, Studio, pricing, видео, анимация",
+    "url": "https://www.d-id.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "InVideo",
+    "cat": "video",
+    "freeVerdict": "Пользователи получают 400 кредитов в месяц на начальном уровне, что позволяет создавать ограниченное количество видео и изображений.",
+    "card": false,
+    "watermark": false,
+    "reset": "Ежемесячно",
+    "hasFree": true,
+    "search": "video creation, AI tools, InVideo, создание видео, инструменты ИИ",
+    "url": "https://invideo.io/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Cursor",
+    "cat": "code",
+    "freeVerdict": "Предоставляется бесплатный тариф Hobby, который включает ограниченное количество запросов к агентам и доступ к Composer. Кредитные лимиты не указаны.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "Cursor, pricing, free plan, code assistance, agent requests",
+    "url": "https://www.cursor.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "v0 by Vercel",
+    "cat": "code",
+    "freeVerdict": "На сайте не указано количество бесплатных попыток или кредитов.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "pricing, models, tokens, v0, Vercel, цена, тарифы",
+    "url": "https://v0.dev/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Devin",
+    "cat": "code",
+    "freeVerdict": "Бесплатный план предоставляет ограниченные квоты для работы с агентами и доступ к некоторым моделям. Конкретное количество бесплатных попыток не указано.",
+    "card": false,
+    "watermark": false,
+    "reset": "Безлимит",
+    "hasFree": true,
+    "search": "pricing, plans, Devin, free plan, code assistance, subscription, pricing tiers, код, планы, бесплатный план, помощь с кодом",
+    "url": "https://codeium.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Replit",
+    "cat": "code",
+    "freeVerdict": "В бесплатном режиме доступно до 30 часов чата и до 60 проектов.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "Replit, pricing, план, код, программирование",
+    "url": "https://replit.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Tabnine",
+    "cat": "code",
+    "freeVerdict": "Tabnine предлагает бесплатный план с ограниченными функциями, который позволяет пользователям попробовать сервис без оплаты.",
+    "card": false,
+    "watermark": false,
+    "reset": "Нет",
+    "hasFree": true,
+    "search": "AI code completion, AI programming, Tabnine, код, программирование, ИИ автозаполнение",
+    "url": "https://www.tabnine.com/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "ElevenLabs",
+    "cat": "audio",
+    "freeVerdict": "Пользователи получают 10,000 кредитов в месяц на бесплатном тарифе, что позволяет использовать различные функции сервиса.",
+    "card": false,
+    "watermark": false,
+    "reset": "Ежемесячно",
+    "hasFree": true,
+    "search": "text to speech, speech to text, voice cloning, audio production, ElevenLabs, текст в речь, речь в текст, клонирование голоса, аудиопроизводство",
+    "url": "https://elevenlabs.io/pricing",
+    "error_count": 0
+  },
+  {
+    "name": "Moises App",
+    "cat": "audio",
+    "freeVerdict": "Пользователи могут начать с бесплатной подписки, которая предоставляет ограниченный доступ к функциям приложения. Точные условия бесплатного доступа могут варьироваться.",
+    "card": false,
+    "watermark": false,
+    "reset": "Ежемесячно",
+    "hasFree": true,
+    "search": "music, vocal remover, stem separation, audio editing, музыкальное приложение, удаление вокала, разделение стемов, редактирование аудио",
+    "url": "https://moises.ai/pricing",
+    "error_count": 0
   }
 ]
