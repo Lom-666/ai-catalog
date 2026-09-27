@@ -51,7 +51,7 @@ def analyze_with_ai(url, page_text):
 """
     try:
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="google/gemini-2.5-flash",
             response_format={"type": "json_object"},
             messages=[{"role": "user", "content": prompt}],
         )
