@@ -97,7 +97,7 @@ def main():
 
         # Проверяем, не умер ли сайт (ошибка 404 или 410)
         if status_code in [404, 410]:
-            print(f"⚠️ Внимание: сайт {url отдаёт код {status_code} (Мёртв).")
+            print(f"⚠️ Внимание: сайт {url} отдаёт код {status_code} (Мёртв).")
             if url in catalog_dict:
                 # Увеличиваем счетчик ошибок
                 catalog_dict[url]["error_count"] = catalog_dict[url].get("error_count", 0) + 1
