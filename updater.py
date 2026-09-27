@@ -40,7 +40,7 @@ def analyze_with_ai(url, page_text):
 {{
   "name": "Название сервиса",
   "cat": "Строго одно из: chat, image, video, code, audio",
-  "freeVerdict": f"Модель от {p_name}. Открытая спецификация и технические данные из открытого реестра models.dev.",
+  "freeVerdict": "На русском языке, 1-2 предложения: сколько точно дают бесплатных попыток, кредитов или минут.",
   "card": false,
   "watermark": false,
   "reset": "Строго одно из: Ежедневно, Ежемесячно, Разово, Безлимит, Нет",
@@ -85,7 +85,7 @@ def fetch_models_dev():
                     models_list.append({
                         "name": f"{p_name} — {m_name}",
                         "cat": "code" if "code" in m_name.lower() or "coder" in m_name.lower() else "chat",
-                        "freeVerdict": fल्टीв от {p_name}. Открытая спецификация и технические данные из открытого реестра models.dev.",
+                        "freeVerdict": f"Модель от {p_name}. Открытая спецификация и технические данные из открытого реестра models.dev.",
                         "card": False,
                         "watermark": False,
                         "reset": "Безлимит",
