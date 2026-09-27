@@ -1,0 +1,35 @@
+name: Обновление AI каталога
+
+on:
+  schedule:
+    # Запуск каждый день в 03:00 ночи по МСК
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Позволяет запускать вручную кнопкой в любой момент
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачиваем код репозитория
+        uses: actions/checkout@v4
+
+      - name: Настраиваем Python
+        uses: setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Устанавливаем библиотеки
+        run: pip install requests beautifulsoup4 openai
+
+      - name: Запускаем анализ
+        env:
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+        run: python updater.py
+
+      - name: Автоматически коммитим свежий data.json на сайт
+        run: |
+          git config --global user.name "AI Catalog Bot"
+          git config --global user.email "bot@github.com"
+          git add data.json
+          git commit -m "Auto-update AI limits [skip ci]" || exit 0
+          git push
