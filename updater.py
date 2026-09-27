@@ -3,36 +3,42 @@ import os
 import requests
 from openai import OpenAI
 
-# Подключаемся к нейросети (OpenRouter или OpenAI)
+# Подключаемся через OpenRouter (или OpenAI, если задан другой base_url)
 client = OpenAI(
     api_key=os.environ.get("AI_API_KEY"),
     base_url=os.environ.get("AI_BASE_URL", "https://api.openai.com/v1"),
 )
 
 def scrape_site_text(url):
-    """Обходим защиту от ботов через Jina AI Reader"""
+    """Скачиваем текст сайта через Jina AI. Возвращает (текст, код_ответа)"""
     print(f"🔍 Сканирую: {url} ...")
     try:
-        # Секретное оружие: r.jina.ai обходит Cloudflare и возвращает чистый текст
         jina_url = f"https://r.jina.ai/{url}"
         res = requests.get(jina_url, timeout=25)
         
+        # Если сайт вернул 404 или 410 — он мертв
+        if res.status_code in [404, 410]:
+            return None, res.status_code
+
         if res.status_code == 200 and len(res.text) > 50:
-            return res.text[:8000] # Берем 8000 символов, чтобы сэкономить токены
+            return res.text[:8000], 200
         else:
-            print(f"⚠️ Защита не пустила на {url}. Пробуем запасной метод...")
+            # Запасной метод через обычный requests
             headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
             res2 = requests.get(url, headers=headers, timeout=15)
+            if res2.status_code in [404, 410]:
+                return None, res2.status_code
+            
             from bs4 import BeautifulSoup
             soup = BeautifulSoup(res2.text, "html.parser")
             text = " ".join(soup.stripped_strings)
-            return text[:8000]
+            return text[:8000], res2.status_code
     except Exception as e:
-        print(f"❌ Ошибка доступа к {url}: {e}")
-        return None
+        print(f"❌ Ошибка сетевого доступа к {url}: {e}")
+        return None, 500
 
 def analyze_with_ai(url, page_text):
-    """Скармливаем текст нейросети для извлечения лимитов"""
+    """Анализируем текст через нейросеть"""
     prompt = f"""
 Проанализируй текст сайта {url}:
 {page_text}
@@ -51,8 +57,7 @@ def analyze_with_ai(url, page_text):
 """
     try:
         response = client.chat.completions.create(
-            # ВАЖНО: Если используешь OpenRouter, оставь "openai/gpt-4o-mini" или "google/gemini-2.5-flash"
-            model="openai/gpt-4o-mini", 
+            model="openai/gpt-4o-mini", # или google/gemini-2.5-flash
             response_format={"type": "json_object"},
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2
@@ -70,7 +75,7 @@ def main():
     with open("targets.txt", "r", encoding="utf-8") as f:
         urls = [line.strip() for line in f if line.strip()]
 
-    # 1. Загружаем СТАРЫЕ данные, чтобы не удалять то, что работает
+    # Загружаем существующие данные из data.json
     catalog_dict = {}
     if os.path.exists("data.json"):
         try:
@@ -78,7 +83,6 @@ def main():
                 content = f.read().strip()
                 if content:
                     old_data = json.loads(content)
-                    # Собираем в словарь по URL
                     for item in old_data:
                         if isinstance(item, dict) and "url" in item:
                             catalog_dict[item["url"]] = item
@@ -86,31 +90,47 @@ def main():
             pass
 
     successful_updates = 0
+    dead_threshold = 21  # 21 день подряд (3 недели) ошибок до полного удаления
 
-    # 2. Обходим сайты и обновляем данные
     for url in urls:
-        text = scrape_site_text(url)
+        text, status_code = scrape_site_text(url)
+
+        # Проверяем, не умер ли сайт (ошибка 404 или 410)
+        if status_code in [404, 410]:
+            print(f"⚠️ Внимание: сайт {url отдаёт код {status_code} (Мёртв).")
+            if url in catalog_dict:
+                # Увеличиваем счетчик ошибок
+                catalog_dict[url]["error_count"] = catalog_dict[url].get("error_count", 0) + 1
+                print(л := f"Счётчик дней смерти для {catalog_dict[url].get('name', url)}: {catalog_dict[url]['error_count']}/{dead_threshold}")
+                
+                # Если прошло 3 недели (21 проверка) — удаляем навсегда
+                if catalog_dict[url]["error_count"] >= dead_threshold:
+                    print(f"🗑️ Удаляем сервис {catalog_dict[url].get('name', url)}, так как он недоступен уже 3 недели.")
+                    del catalog_dict[url]
+            continue
+
+        # Если сайт живой — парсим и обновляем
         if text and len(text) > 50:
             ai_data = analyze_with_ai(url, text)
             if ai_data and "name" in ai_data:
                 ai_data["url"] = url
-                catalog_dict[url] = ai_data # Записываем или обновляем сервис
+                ai_data["error_count"] = 0  # Сбрасываем счетчик ошибок в 0, раз сайт живой
+                catalog_dict[url] = ai_data
                 successful_updates += 1
-                print(f"✅ Успех: {ai_data['name']}")
+                print(f"✅ Успешно обновлен: {ai_data['name']}")
             else:
-                print(f"⚠️ Нейросеть не смогла вытащить лимиты для {url}")
+                print(f"⚠️ Нейросеть не смогла обработать ответ для {url}")
         else:
-            print(f"⚠️ Сайт {url} заблокировал парсер, оставляем старые данные.")
+            print(f"⚠️ Не удалось получить текст с {url}, оставляем старые данные.")
 
     final_catalog = list(catalog_dict.values())
 
-    # 3. Сохраняем ТОЛЬКО если есть данные (защита от пустого файла)
     if len(final_catalog) > 0:
         with open("data.json", "w", encoding="utf-8") as f:
             json.dump(final_catalog, f, ensure_ascii=False, indent=2)
-        print(f"🎉 Готово! Всего сервисов: {len(final_catalog)}. Обновлено сейчас: {successful_updates}.")
+        print(f"🎉 Готово! Всего активных сервисов: {len(final_catalog)}. Обновлено: {successful_updates}.")
     else:
-        print("❌ Не удалось собрать данные ни с одного сайта. Защита сработала: файл data.json не перезаписан.")
+        print("❌ Каталог пуст, файл data.json не перезаписан.")
 
 if __name__ == "__main__":
     main()
