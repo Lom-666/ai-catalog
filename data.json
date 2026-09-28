@@ -7,17 +7,17 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI builder, no code, app development, website creation, prototyping, малый бизнес, разработка приложений",
+    "search": "AI builder, no code, website builder, app builder, prototyping, AI for small business, создание приложений, создание сайтов",
     "url": "https://bolt.new",
     "error_count": 0
   },
   {
     "name": "DeepSeek",
     "cat": "chat",
-    "freeVerdict": "Сервис предоставляет 10 бесплатных сообщений для пользователей.",
+    "freeVerdict": "Сервис предоставляет возможность использовать чат бесплатно, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
     "search": "chat, чат",
     "url": "https://chat.deepseek.com",
@@ -36,14 +36,14 @@
     "error_count": 0
   },
   {
-    "name": "Claude AI",
+    "name": "Claude",
     "cat": "chat",
-    "freeVerdict": "На сайте не указано количество бесплатных попыток или кредитов.",
+    "freeVerdict": "Пользователи могут попробовать Claude бесплатно без ограничений по времени, но с ограничениями по использованию функций.",
     "card": false,
     "watermark": false,
-    "reset": "Нет",
+    "reset": "Безлимит",
     "hasFree": true,
-    "search": "AI chatbot, искусственный интеллект, чат",
+    "search": "AI, chatbot, Claude, искусственный интеллект, чат",
     "url": "https://claude.ai",
     "error_count": 0
   },
@@ -62,36 +62,36 @@
   {
     "name": "Devin",
     "cat": "code",
-    "freeVerdict": "Бесплатный тариф предоставляет ограниченные квоты для работы с агентами и доступ к ограниченному количеству моделей.",
+    "freeVerdict": "Бесплатный план предоставляет ограниченные квоты для работы с агентами, но точное количество попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежемесячно",
+    "reset": "Нет",
     "hasFree": true,
-    "search": "pricing, plans, Devin, free plan, code assistance, subscription, код, тарифы, бесплатный план, помощь кода",
+    "search": "pricing, plans, Devin, free plan, code assistance, subscription, код, подписка, бесплатный план",
     "url": "https://codeium.com/pricing",
     "error_count": 0
   },
   {
     "name": "Google Colab",
     "cat": "code",
-    "freeVerdict": "Google Colab предоставляет бесплатный доступ к вычислительным ресурсам, включая GPU, без ограничений на количество попыток, но с ограничением по времени использования в сессиях.",
+    "freeVerdict": "Google Colab предоставляет пользователям бесплатный доступ к вычислительным ресурсам, включая GPU, без ограничений на количество сессий.",
     "card": false,
     "watermark": false,
-    "reset": "Ежедневно",
+    "reset": "Нет",
     "hasFree": true,
-    "search": "notebook, Jupyter, Python, machine learning, машинное обучение",
+    "search": "notebook, Jupyter, Python, machine learning, обучение, программирование",
     "url": "https://colab.research.google.com",
     "error_count": 0
   },
   {
     "name": "Microsoft Copilot",
     "cat": "code",
-    "freeVerdict": "Сервис предлагает бесплатный доступ, но точное количество бесплатных попыток или кредитов не указано.",
+    "freeVerdict": "Сервис предоставляет ограниченное количество бесплатных попыток, точное количество не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "Microsoft Copilot, код, программирование, AI, искусственный интеллект",
+    "search": "Copilot, Microsoft, код, программирование",
     "url": "https://copilot.microsoft.com",
     "error_count": 0
   },
@@ -103,19 +103,19 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI image generator, video generator, текст в видео, изображение в видео, текст в изображение, изображение в изображение",
+    "search": "AI image generator, AI video generator, текст в изображение, изображение в видео, генератор изображений",
     "url": "https://dezgo.com",
     "error_count": 0
   },
   {
     "name": "ElevenLabs",
     "cat": "audio",
-    "freeVerdict": "Бесплатный тариф предоставляет 10,000 кредитов в месяц и 3 проекта в студии.",
+    "freeVerdict": "Пользователи получают 10,000 кредитов в месяц на бесплатном тарифе.",
     "card": false,
     "watermark": false,
     "reset": "Ежемесячно",
     "hasFree": true,
-    "search": "text to speech, speech to text, voice cloning, audio production, ElevenLabs, текст в речь, речь в текст, клонирование голоса, аудиопроизводство",
+    "search": "text to speech, speech to text, voice cloning, audio production, ElevenLabs, аудио, синтез речи",
     "url": "https://elevenlabs.io/pricing",
     "error_count": 0
   },
@@ -134,12 +134,12 @@
   {
     "name": "Fish Audio",
     "cat": "audio",
-    "freeVerdict": "Сервис предлагает бесплатную пробную версию, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Сервис предлагает бесплатную пробную версию, но точное количество бесплатных минут не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "text to speech, voice cloning, speech to text, аудиосинтез, клонирование голоса",
+    "search": "text to speech, voice cloning, speech to text, аудиосервис, синтез речи",
     "url": "https://fish.audio",
     "error_count": 0
   },
@@ -151,7 +151,7 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI assistant, Gemini, Google, искусственный интеллект, чат",
+    "search": "AI assistant, Gemini, Google, чат, искусственный интеллект",
     "url": "https://gemini.google.com",
     "error_count": 0
   },
@@ -163,74 +163,74 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI coding assistant, GitHub Copilot, разработка программного обеспечения, помощь в кодировании, AI инструменты",
+    "search": "AI coding assistant, GitHub Copilot, разработка программного обеспечения, помощь в кодировании, AI разработка",
     "url": "https://github.com/features/copilot",
     "error_count": 0
   },
   {
     "name": "Groq",
     "cat": "code",
-    "freeVerdict": "Groq предлагает бесплатный доступ к своей платформе для разработчиков, но точное количество бесплатных попыток или кредитов не указано.",
+    "freeVerdict": "Groq предлагает бесплатный доступ к своей платформе для разработки, но точное количество бесплатных попыток или кредитов не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI inference, neocloud, Groq, GPU, LPU, LPX, cloud computing, искусственный интеллект, облачные вычисления",
+    "search": "AI inference, neocloud, Groq, GPU, machine learning, ИИ, облачные вычисления",
     "url": "https://groq.com",
     "error_count": 0
   },
   {
     "name": "Hailuo AI",
     "cat": "video",
-    "freeVerdict": "Пользователи получают 3000 бесплатных кредитов для начала создания видео.",
+    "freeVerdict": "При регистрации вы получаете 3000 бесплатных кредитов для начала создания видео.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI video generator, видео генератор, создание видео, MiniMax H3",
+    "search": "AI video generator, видео генератор, MiniMax H3, создание видео",
     "url": "https://hailuoai.video",
     "error_count": 0
   },
   {
     "name": "HuggingChat",
     "cat": "chat",
-    "freeVerdict": "Пользователи могут бесплатно общаться с AI моделями без ограничений на количество попыток.",
+    "freeVerdict": "Сервис предоставляет возможность бесплатного общения с AI моделями без ограничений по количеству попыток.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI chat, open source, Hugging Face, чат, искусственный интеллект",
+    "search": "AI chat, HuggingFace, open source, чат, ИИ, разговор",
     "url": "https://huggingface.co/chat",
     "error_count": 0
   },
   {
     "name": "Ideogram",
     "cat": "image",
-    "freeVerdict": "Сервис предлагает бесплатный доступ к некоторым инструментам, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Идеограмма предлагает бесплатный доступ к своим инструментам, но точное количество бесплатных попыток не указано на сайте.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI, image generation, editing, visual intelligence, creative workflow, Ideogram",
+    "search": "AI apps, image generation, background remover, object remover, Ideogram",
     "url": "https://ideogram.ai",
     "error_count": 0
   },
   {
     "name": "InVideo AI",
     "cat": "video",
-    "freeVerdict": "Пользователи получают 400 кредитов в месяц для создания видео. Бесплатные попытки не предусмотрены.",
+    "freeVerdict": "Пользователи получают 400 кредитов в месяц на создание видео. Бесплатные попытки не предусмотрены.",
     "card": false,
     "watermark": false,
     "reset": "Ежемесячно",
     "hasFree": true,
-    "search": "video creation, AI tools, credits, видео создание, AI инструменты, кредиты",
+    "search": "video creation, AI video, credits, InVideo, создание видео, ИИ видео, кредиты",
     "url": "https://invideo.io/pricing",
     "error_count": 0
   },
   {
     "name": "Kaiber",
     "cat": "video",
-    "freeVerdict": "Предоставляется 5 дней полного доступа для пробного использования сервиса.",
+    "freeVerdict": "Сервис предлагает 5 дней полного доступа за $5, что позволяет пользователям попробовать все функции без ограничений.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
@@ -254,19 +254,19 @@
   {
     "name": "Leonardo.Ai",
     "cat": "image",
-    "freeVerdict": "Пользователи получают 10 бесплатных кредитов для генерации изображений.",
+    "freeVerdict": "Пользователи могут начать бесплатно, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
-    "reset": "Ежемесячно",
+    "reset": "Нет",
     "hasFree": true,
-    "search": "generative AI, image generation, AI art, искусственный интеллект, генерация изображений, искусство",
+    "search": "generative AI, image generation, video creation, AI art, искусственный интеллект, генерация изображений, создание видео, искусство ИИ",
     "url": "https://leonardo.ai",
     "error_count": 0
   },
   {
     "name": "Lovable",
     "cat": "code",
-    "freeVerdict": "Сервис предлагает бесплатный старт для создания проектов, однако точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Сервис предлагает бесплатный старт для создания проектов, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
@@ -276,14 +276,14 @@
     "error_count": 0
   },
   {
-    "name": "Luma Dream Machine",
+    "name": "Luma",
     "cat": "video",
-    "freeVerdict": "Сервис предлагает 10,000 кредитов для индивидуальных пользователей, которые могут использоваться для генерации контента.",
+    "freeVerdict": "Сервис предоставляет 10,000 кредитов для бесплатного использования.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "creative agents, collaboration, workflow, AI, генерация контента, креативные агенты",
+    "search": "creative agents, AI, collaboration, workflow, video production, креативные агенты, ИИ, сотрудничество, рабочий процесс, видеопроизводство",
     "url": "https://lumalabs.ai/dream-machine",
     "error_count": 0
   },
@@ -295,127 +295,127 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "vocal remover, stem separation, music collaboration, Moises, музыкальное приложение",
+    "search": "vocal remover, music collaboration, stem separation, Moises, музыкальное приложение",
     "url": "https://moises.ai/pricing",
     "error_count": 0
   },
   {
     "name": "ChatGPT",
     "cat": "chat",
-    "freeVerdict": "Бесплатный тариф предоставляет неограниченные текстовые чаты с GPT-5.6 Luna, но с ограничениями на количество сообщений и доступ к другим функциям.",
+    "freeVerdict": "Бесплатный тариф предоставляет неограниченные текстовые чаты с GPT-5.6 Luna, но с ограничениями на количество сообщений и загрузок.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "ChatGPT, чат, OpenAI, AI, искусственный интеллект",
+    "search": "ChatGPT, бесплатный тариф, AI, искусственный интеллект",
     "url": "https://openai.com/chatgpt/pricing",
     "error_count": 0
   },
   {
     "name": "Pika",
-    "cat": "video",
-    "freeVerdict": "Пользователи могут воспользоваться бесплатными возможностями платформы, но точное количество бесплатных попыток не указано.",
+    "cat": "image",
+    "freeVerdict": "Пользователи могут воспользоваться бесплатными возможностями, однако точное количество бесплатных попыток не указано на сайте.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI creative tools, видео, изображение, аудио, генерация контента, искусственный интеллект",
+    "search": "AI creative tools, видео, изображения, аудио, искусственный интеллект, креативные приложения",
     "url": "https://pika.art",
     "error_count": 0
   },
   {
     "name": "Playground",
     "cat": "image",
-    "freeVerdict": "Сервис предлагает бесплатный стартовый доступ с возможностью создания дизайнов без ограничений на количество попыток.",
+    "freeVerdict": "Сервис предоставляет возможность бесплатно начать создание дизайнов, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI design tool, logos, stickers, T-shirts, social media, дизайн, логотипы, наклейки, футболки, социальные сети",
+    "search": "AI design tool, логотипы, футболки, социальные медиа, дизайн, искусственный интеллект, шаблоны",
     "url": "https://playground.com",
     "error_count": 0
   },
   {
     "name": "Poe",
     "cat": "chat",
-    "freeVerdict": "Пользователи могут общаться с различными AI-ботами, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Пользователи могут общаться с различными AI-ботами без ограничений на бесплатной основе.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI chat, Poe, GPT, Claude, Gemini, Kimi",
+    "search": "AI chat, Poe, GPT, Claude, Gemini, Kimi, Grok, chat, AI, искусственный интеллект",
     "url": "https://poe.com",
     "error_count": 0
   },
   {
     "name": "Replit",
     "cat": "code",
-    "freeVerdict": "В бесплатном режиме доступно до 30 часов чата и до 60 проектов.",
+    "freeVerdict": "В бесплатном режиме предоставляется до 30 часов чата и до 60 проектов.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "pricing, plans, Replit, цены, тарифы",
+    "search": "Replit, код, программирование, бесплатный, план",
     "url": "https://replit.com/pricing",
     "error_count": 0
   },
   {
     "name": "Runway AI",
     "cat": "video",
-    "freeVerdict": "Бесплатный тариф предоставляет 125 одноразовых кредитов для изучения инструментов Runway.",
+    "freeVerdict": "Бесплатный тариф предоставляет 125 кредитов для изучения инструментов Runway. Эти кредиты можно использовать для тестирования генеративных моделей.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI tools, video generation, image generation, Runway, искусственный интеллект, генерация видео, генерация изображений",
+    "search": "AI tools, video generation, image generation, credits, Runway, инструменты ИИ, генерация видео, генерация изображений, кредиты",
     "url": "https://runwayml.com/pricing",
     "error_count": 0
   },
   {
     "name": "Suno",
     "cat": "audio",
-    "freeVerdict": "Бесплатный план предоставляет 50 кредитов в день для создания музыки.",
+    "freeVerdict": "Suno позволяет создавать до 10 песен в день бесплатно, без необходимости указывать данные кредитной карты.",
     "card": false,
     "watermark": false,
     "reset": "Ежедневно",
     "hasFree": true,
-    "search": "AI music generator, генератор музыки",
+    "search": "AI music generator, создание музыки, генератор песен, музыка, искусственный интеллект",
     "url": "https://suno.com",
     "error_count": 0
   },
   {
     "name": "Supermaven",
     "cat": "code",
-    "freeVerdict": "Сервис предлагает бесплатный тариф с неограниченным доступом к высококачественным предложениям кода, но с 7-дневным сроком хранения данных.",
+    "freeVerdict": "Сервис предлагает бесплатный тариф, который полностью бесплатен, но с ограничением на 7 дней хранения данных.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI code completion, бесплатный инструмент, код, программирование",
+    "search": "AI code completion, бесплатный код, инструменты для разработчиков, Supermaven",
     "url": "https://supermaven.com",
     "error_count": 0
   },
   {
-    "name": "Tensor.Art",
+    "name": "tensor.art",
     "cat": "image",
-    "freeVerdict": "Сервис предлагает бесплатное создание изображений без ограничений на количество попыток.",
+    "freeVerdict": "На сайте не указано количество бесплатных попыток или кредитов.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "image generator, AI tools, character design, anime, photorealistic, digital art, генератор изображений, инструменты ИИ, дизайн персонажей, аниме, фотореалистичный, цифровое искусство",
+    "search": "tensor, art, генерация изображений, искусственный интеллект, AI, генеративное искусство",
     "url": "https://tensor.art",
     "error_count": 0
   },
   {
     "name": "v0 by Vercel",
     "cat": "code",
-    "freeVerdict": "На сайте не указано количество бесплатных попыток или кредитов.",
+    "freeVerdict": "Сайт не предоставляет информацию о бесплатных попытках или кредитах.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "pricing, model pricing, tokens, v0, Vercel, цена, тарифы",
+    "search": "pricing, plans, tokens, v0, Vercel, стоимость, тарифы",
     "url": "https://v0.dev/pricing",
     "error_count": 0
   },
@@ -427,14 +427,14 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "3D animation, motion capture, meme maker, игры, API, видеомемы, создание контента",
+    "search": "3D motion, character animation, meme maker, motion capture, games, API, видеомонтаж, анимация, создание мемов",
     "url": "https://viggle.ai",
     "error_count": 0
   },
   {
     "name": "Bing Image Creator",
     "cat": "image",
-    "freeVerdict": "Сервис предоставляет возможность создавать изображения с помощью ИИ бесплатно, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Сервис предоставляет возможность создавать изображения с помощью ИИ бесплатно, но для использования требуется вход в систему.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
@@ -446,19 +446,19 @@
   {
     "name": "CapCut",
     "cat": "video",
-    "freeVerdict": "CapCut предлагает бесплатный доступ к онлайн-редактору видео без необходимости ввода данных кредитной карты. Вы можете использовать все функции без ограничений.",
+    "freeVerdict": "CapCut предлагает бесплатный доступ к своим инструментам редактирования видео без необходимости указывать данные кредитной карты. Пользователи могут редактировать видео и изображения онлайн без ограничений.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "video editor, AI tools, online editing, бесплатный видеоредактор, инструменты ИИ",
+    "search": "video editor, AI tools, online editing, редактирование видео, AI инструменты, онлайн редактирование",
     "url": "https://www.capcut.com",
     "error_count": 0
   },
   {
     "name": "Cursor",
     "cat": "code",
-    "freeVerdict": "Бесплатный тариф Hobby предоставляет ограниченное количество запросов к агентам и доступ к Composer без необходимости ввода данных кредитной карты.",
+    "freeVerdict": "Бесплатный тариф предоставляет доступ к ограниченному количеству запросов к агентам и к Composer без необходимости ввода данных кредитной карты.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
@@ -470,19 +470,19 @@
   {
     "name": "D-ID Studio",
     "cat": "video",
-    "freeVerdict": "Сервис предоставляет 5 бесплатных минут для использования.",
+    "freeVerdict": "Сервис предоставляет 5 бесплатных минут для использования. После этого необходимо перейти на платный тариф.",
     "card": false,
     "watermark": false,
     "reset": "Ежемесячно",
     "hasFree": true,
-    "search": "D-ID, Studio, pricing, видео, анимация",
+    "search": "D-ID Studio, видео, анимация, искусственный интеллект, создание видео",
     "url": "https://www.d-id.com/pricing",
     "error_count": 0
   },
   {
     "name": "Magnific",
     "cat": "image",
-    "freeVerdict": "Сервис предоставляет 5 бесплатных попыток для генерации изображений.",
+    "freeVerdict": "Сервис предоставляет 5 бесплатных попыток для генерации изображений с помощью AI.",
     "card": false,
     "watermark": false,
     "reset": "Ежедневно",
@@ -494,31 +494,31 @@
   {
     "name": "HeyGen",
     "cat": "video",
-    "freeVerdict": "Бесплатный тариф предлагает 3 видео в месяц продолжительностью до 1 минуты.",
+    "freeVerdict": "Бесплатный тариф позволяет создавать 3 видео в месяц продолжительностью до 1 минуты.",
     "card": false,
     "watermark": false,
     "reset": "Ежемесячно",
     "hasFree": true,
-    "search": "AI video generator, HeyGen, видео генератор, создание видео",
+    "search": "AI video generator, видео генератор, создание видео, HeyGen",
     "url": "https://www.heygen.com/pricing",
     "error_count": 0
   },
   {
     "name": "Krea",
     "cat": "video",
-    "freeVerdict": "Сервис предоставляет возможность бесплатного использования, однако точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Пользователи могут попробовать сервис бесплатно, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "video generation, AI tools, Krea, создание видео, AI инструменты",
+    "search": "video generation, AI tools, Krea, создание видео, генерация видео",
     "url": "https://www.krea.ai",
     "error_count": 0
   },
   {
     "name": "Midjourney",
     "cat": "image",
-    "freeVerdict": "Пользователи могут получить ограниченное количество бесплатных попыток для генерации изображений, точное количество не указано.",
+    "freeVerdict": "Пользователи могут получить ограниченное количество бесплатных попыток для генерации изображений, однако точное количество не указано.",
     "card": false,
     "watermark": false,
     "reset": "Ежемесячно",
@@ -542,7 +542,7 @@
   {
     "name": "Recraft",
     "cat": "image",
-    "freeVerdict": "Сервис предлагает бесплатный доступ к функционалу, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Предоставляется бесплатный доступ к сервису, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
@@ -559,43 +559,43 @@
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI creativity, art, video creation, community, tools, искусственный интеллект, творчество, создание видео",
+    "search": "AI tools, art creation, video generation, создание изображений, генерация видео",
     "url": "https://www.seaart.ai",
     "error_count": 0
   },
   {
     "name": "Tabnine",
     "cat": "code",
-    "freeVerdict": "Tabnine предлагает бесплатный тариф с ограниченными функциями, который можно использовать без оплаты. Точные условия бесплатного использования могут варьироваться.",
+    "freeVerdict": "Tabnine предлагает бесплатный тариф с ограниченными функциями, который можно использовать без временных ограничений.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI code completion, Tabnine, код, автозаполнение кода",
+    "search": "AI code completion, Tabnine, автозавершение кода, искусственный интеллект",
     "url": "https://www.tabnine.com/pricing",
     "error_count": 0
   },
   {
     "name": "Udio",
     "cat": "audio",
-    "freeVerdict": "Сервис предлагает бесплатный пробный период, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Udio предлагает бесплатный пробный период, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "AI music generator, music creation, personalized music, музыкальный генератор, создание музыки, персонализированная музыка",
+    "search": "AI music generator, music creation, audio editing, генератор музыки, создание музыки, редактирование аудио",
     "url": "https://www.udio.com",
     "error_count": 0
   },
   {
     "name": "You.com Web Search APIs",
     "cat": "code",
-    "freeVerdict": "Вы можете получить бесплатную оценку сервиса, но точное количество бесплатных попыток не указано.",
+    "freeVerdict": "Вы можете получить бесплатную оценку, но точное количество бесплатных попыток не указано.",
     "card": false,
     "watermark": false,
     "reset": "Нет",
     "hasFree": true,
-    "search": "web search API, AI, искусственный интеллект, API для поиска",
+    "search": "web search API, веб поиск API",
     "url": "https://you.com",
     "error_count": 0
   },
@@ -607,7 +607,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Perplexity Agent+Claude Haiku 4.5+official+website",
     "search": "Perplexity Agent Claude Haiku 4.5 open source ai"
   },
   {
@@ -618,7 +618,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Perplexity Agent+Claude Opus 4.5+official+website",
     "search": "Perplexity Agent Claude Opus 4.5 open source ai"
   },
   {
@@ -629,7 +629,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Bailing+Ring-1T+official+website",
     "search": "Bailing Ring-1T open source ai"
   },
   {
@@ -640,7 +640,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Bailing+Ling-1T+official+website",
     "search": "Bailing Ling-1T open source ai"
   },
   {
@@ -651,7 +651,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Poe+qwen3-32b-cs+official+website",
     "search": "Poe qwen3-32b-cs open source ai"
   },
   {
@@ -662,7 +662,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Poe+Llama-3.1-8B-CS+official+website",
     "search": "Poe Llama-3.1-8B-CS open source ai"
   },
   {
@@ -673,7 +673,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Cerebras+Qwen3.8 27B+official+website",
     "search": "Cerebras Qwen3.8 27B open source ai"
   },
   {
@@ -684,7 +684,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Cerebras+GPT OSS 120B+official+website",
     "search": "Cerebras GPT OSS 120B open source ai"
   },
   {
@@ -695,7 +695,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Groq+Whisper+official+website",
     "search": "Groq Whisper open source ai"
   },
   {
@@ -706,7 +706,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Groq+Llama 3.3 70B+official+website",
     "search": "Groq Llama 3.3 70B open source ai"
   },
   {
@@ -717,7 +717,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Blue Claw+Qwen3.6 27B+official+website",
     "search": "Blue Claw Qwen3.6 27B open source ai"
   },
   {
@@ -728,7 +728,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Blue Claw+Qwen3.6 35B A3B FP8+official+website",
     "search": "Blue Claw Qwen3.6 35B A3B FP8 open source ai"
   },
   {
@@ -739,7 +739,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Z.AI+GLM-4.6V+official+website",
     "search": "Z.AI GLM-4.6V open source ai"
   },
   {
@@ -750,7 +750,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Z.AI+GLM-4.5+official+website",
     "search": "Z.AI GLM-4.5 open source ai"
   },
   {
@@ -761,7 +761,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=EmpirioLabs AI+Qwen3.8 Max 0902+official+website",
     "search": "EmpirioLabs AI Qwen3.8 Max 0902 open source ai"
   },
   {
@@ -772,7 +772,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=EmpirioLabs AI+Qwen3.6 Plus+official+website",
     "search": "EmpirioLabs AI Qwen3.6 Plus open source ai"
   },
   {
@@ -783,7 +783,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=SenseNova (China)+Kimi K3+official+website",
     "search": "SenseNova (China) Kimi K3 open source ai"
   },
   {
@@ -794,7 +794,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=SenseNova (China)+SenseNova 6.8 Flash Lite+official+website",
     "search": "SenseNova (China) SenseNova 6.8 Flash Lite open source ai"
   },
   {
@@ -805,7 +805,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Alibaba Token Plan+HappyHorse 1.1 Reference-to-Video+official+website",
     "search": "Alibaba Token Plan HappyHorse 1.1 Reference-to-Video open source ai"
   },
   {
@@ -816,7 +816,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Alibaba Token Plan+Qwen3.7 Max+official+website",
     "search": "Alibaba Token Plan Qwen3.7 Max open source ai"
   },
   {
@@ -827,7 +827,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Poolside+Laguna S 2.1+official+website",
     "search": "Poolside Laguna S 2.1 open source ai"
   },
   {
@@ -838,7 +838,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Poolside+Laguna XS 2.1+official+website",
     "search": "Poolside Laguna XS 2.1 open source ai"
   },
   {
@@ -849,7 +849,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NanoGPT+Deepseek R1 Cheaper+official+website",
     "search": "NanoGPT Deepseek R1 Cheaper open source ai"
   },
   {
@@ -860,7 +860,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NanoGPT+NanoGPT Help+official+website",
     "search": "NanoGPT NanoGPT Help open source ai"
   },
   {
@@ -871,7 +871,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=abliteration.ai+Abliterated Model Large V2+official+website",
     "search": "abliteration.ai Abliterated Model Large V2 open source ai"
   },
   {
@@ -882,7 +882,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=abliteration.ai+Abliterated Model+official+website",
     "search": "abliteration.ai Abliterated Model open source ai"
   },
   {
@@ -893,7 +893,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CrofAI+Gemma 4 31B IT+official+website",
     "search": "CrofAI Gemma 4 31B IT open source ai"
   },
   {
@@ -904,7 +904,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CrofAI+Qwen3.8 27B+official+website",
     "search": "CrofAI Qwen3.8 27B open source ai"
   },
   {
@@ -915,7 +915,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Standard Compute+Standard Compute+official+website",
     "search": "Standard Compute Standard Compute open source ai"
   },
   {
@@ -926,7 +926,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CloudFerro Sherlock+Llama 3.3 70B Instruct+official+website",
     "search": "CloudFerro Sherlock Llama 3.3 70B Instruct open source ai"
   },
   {
@@ -937,7 +937,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CloudFerro Sherlock+MiniMax-M2.5+official+website",
     "search": "CloudFerro Sherlock MiniMax-M2.5 open source ai"
   },
   {
@@ -948,7 +948,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Anthropic+Claude Haiku 4.5 (latest)+official+website",
     "search": "Anthropic Claude Haiku 4.5 (latest) open source ai"
   },
   {
@@ -959,7 +959,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Anthropic+Claude Opus 4.5 (latest)+official+website",
     "search": "Anthropic Claude Opus 4.5 (latest) open source ai"
   },
   {
@@ -970,7 +970,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Tinfoil+gpt-oss-safeguard-120b+official+website",
     "search": "Tinfoil gpt-oss-safeguard-120b open source ai"
   },
   {
@@ -981,7 +981,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Tinfoil+GLM-5.3-Flash+official+website",
     "search": "Tinfoil GLM-5.3-Flash open source ai"
   },
   {
@@ -992,7 +992,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Llama+Llama-4-Maverick-17B-128E-Instruct-FP8+official+website",
     "search": "Llama Llama-4-Maverick-17B-128E-Instruct-FP8 open source ai"
   },
   {
@@ -1003,7 +1003,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Llama+Groq-Llama-4-Maverick-17B-128E-Instruct+official+website",
     "search": "Llama Groq-Llama-4-Maverick-17B-128E-Instruct open source ai"
   },
   {
@@ -1014,7 +1014,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Cohere+Command R+official+website",
     "search": "Cohere Command R open source ai"
   },
   {
@@ -1025,7 +1025,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Cohere+North Mini Code+official+website",
     "search": "Cohere North Mini Code open source ai"
   },
   {
@@ -1036,7 +1036,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=DeepSeek+DeepSeek V4 Flash Vision Exp+official+website",
     "search": "DeepSeek DeepSeek V4 Flash Vision Exp open source ai"
   },
   {
@@ -1047,7 +1047,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=DeepSeek+DeepSeek V4.1 Flash+official+website",
     "search": "DeepSeek DeepSeek V4.1 Flash open source ai"
   },
   {
@@ -1058,7 +1058,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NaN+MiMo-V2.5+official+website",
     "search": "NaN MiMo-V2.5 open source ai"
   },
   {
@@ -1069,7 +1069,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NaN+GLM-5.3-Flash+official+website",
     "search": "NaN GLM-5.3-Flash open source ai"
   },
   {
@@ -1080,7 +1080,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=StepFun Step Plan (Global)+Step 5 Preview+official+website",
     "search": "StepFun Step Plan (Global) Step 5 Preview open source ai"
   },
   {
@@ -1091,7 +1091,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=StepFun Step Plan (Global)+Step 3.5 Flash 2603+official+website",
     "search": "StepFun Step Plan (Global) Step 3.5 Flash 2603 open source ai"
   },
   {
@@ -1102,7 +1102,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NEAR AI Cloud+Claude Haiku 4.5 (latest)+official+website",
     "search": "NEAR AI Cloud Claude Haiku 4.5 (latest) open source ai"
   },
   {
@@ -1113,7 +1113,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=NEAR AI Cloud+Claude Sonnet 4.5 (latest)+official+website",
     "search": "NEAR AI Cloud Claude Sonnet 4.5 (latest) open source ai"
   },
   {
@@ -1124,7 +1124,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CoreWeave+Mellum2 12B A2.5B+official+website",
     "search": "CoreWeave Mellum2 12B A2.5B open source ai"
   },
   {
@@ -1135,7 +1135,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=CoreWeave+Llama 3.1 70B+official+website",
     "search": "CoreWeave Llama 3.1 70B open source ai"
   },
   {
@@ -1146,7 +1146,7 @@
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://models.dev",
+    "url": "https://www.google.com/search?q=Subconscious+TIM-Qwen3.6 27B+official+website",
     "search": "Subconscious TIM-Qwen3.6 27B open source ai"
   }
 ]
