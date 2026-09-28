@@ -98,7 +98,7 @@ def fetch_models_dev():
                         "watermark": False,
                         "reset": "Безлимит",
                         "hasFree": True,
-                        "url": "https://models.dev",
+                        "url": f"https://www.google.com/search?q={p_name}+{m_name}+official+website",
                         "search": f"{p_name} {m_name} open source ai"
                     })
                     
