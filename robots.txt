@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lom-666.github.io/ai-catalog/sitemap.xml
