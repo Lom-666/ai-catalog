@@ -600,553 +600,553 @@
     "error_count": 0
   },
   {
-    "name": "ZenMux: MiMo-V2.5-Pro",
+    "name": "Munito AI (EU): Kolibri 1",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.5-Pro от создателя ZenMux. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Kolibri 1 от создателя Munito AI (EU). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=ZenMux+MiMo-V2.5-Pro+official+website",
-    "search": "ZenMux MiMo-V2.5-Pro open source ai"
+    "url": "https://www.google.com/search?q=Munito AI (EU)+Kolibri 1+official+website",
+    "search": "Munito AI (EU) Kolibri 1 open source ai"
   },
   {
-    "name": "ZenMux: MiMo-V2.6-Pro",
+    "name": "Munito AI (EU): DeepSeek V4 Flash 0731",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.6-Pro от создателя ZenMux. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель DeepSeek V4 Flash 0731 от создателя Munito AI (EU). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=ZenMux+MiMo-V2.6-Pro+official+website",
-    "search": "ZenMux MiMo-V2.6-Pro open source ai"
+    "url": "https://www.google.com/search?q=Munito AI (EU)+DeepSeek V4 Flash 0731+official+website",
+    "search": "Munito AI (EU) DeepSeek V4 Flash 0731 open source ai"
   },
   {
-    "name": "Lynkr: Lynkr Auto (complexity routing)",
+    "name": "NeoSmith: NeoSmith Basic",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Lynkr Auto (complexity routing) от создателя Lynkr. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель NeoSmith Basic от создателя NeoSmith. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Lynkr+Lynkr Auto (complexity routing)+official+website",
-    "search": "Lynkr Lynkr Auto (complexity routing) open source ai"
+    "url": "https://www.google.com/search?q=NeoSmith+NeoSmith Basic+official+website",
+    "search": "NeoSmith NeoSmith Basic open source ai"
   },
   {
-    "name": "Umans AI: DeepSeek V4.1 Flash",
+    "name": "NeoSmith: NeoSmith Maestro",
     "cat": "chat",
-    "freeVerdict": "Популярная модель DeepSeek V4.1 Flash от создателя Umans AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель NeoSmith Maestro от создателя NeoSmith. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Umans AI+DeepSeek V4.1 Flash+official+website",
-    "search": "Umans AI DeepSeek V4.1 Flash open source ai"
+    "url": "https://www.google.com/search?q=NeoSmith+NeoSmith Maestro+official+website",
+    "search": "NeoSmith NeoSmith Maestro open source ai"
   },
   {
-    "name": "Umans AI: Umans Flash",
+    "name": "AIHubMix: Xiaomi MiMo-V2.5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Umans Flash от создателя Umans AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Xiaomi MiMo-V2.5 от создателя AIHubMix. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Umans AI+Umans Flash+official+website",
-    "search": "Umans AI Umans Flash open source ai"
+    "url": "https://www.google.com/search?q=AIHubMix+Xiaomi MiMo-V2.5+official+website",
+    "search": "AIHubMix Xiaomi MiMo-V2.5 open source ai"
   },
   {
-    "name": "Agnes AI: Agnes 3.0 Flash",
+    "name": "AIHubMix: Gemini 2.5 Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Agnes 3.0 Flash от создателя Agnes AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Gemini 2.5 Flash от создателя AIHubMix. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Agnes AI+Agnes 3.0 Flash+official+website",
-    "search": "Agnes AI Agnes 3.0 Flash open source ai"
+    "url": "https://www.google.com/search?q=AIHubMix+Gemini 2.5 Flash+official+website",
+    "search": "AIHubMix Gemini 2.5 Flash open source ai"
   },
   {
-    "name": "Agnes AI: Agnes 2.5 Pro Alpha",
+    "name": "Tinfoil: gpt-oss-safeguard-120b",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Agnes 2.5 Pro Alpha от создателя Agnes AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель gpt-oss-safeguard-120b от создателя Tinfoil. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Agnes AI+Agnes 2.5 Pro Alpha+official+website",
-    "search": "Agnes AI Agnes 2.5 Pro Alpha open source ai"
+    "url": "https://www.google.com/search?q=Tinfoil+gpt-oss-safeguard-120b+official+website",
+    "search": "Tinfoil gpt-oss-safeguard-120b open source ai"
   },
   {
-    "name": "InferX: Qwen3.6 35B A3B FP8",
+    "name": "Tinfoil: Kimi K3",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.6 35B A3B FP8 от создателя InferX. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Kimi K3 от создателя Tinfoil. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=InferX+Qwen3.6 35B A3B FP8+official+website",
-    "search": "InferX Qwen3.6 35B A3B FP8 open source ai"
+    "url": "https://www.google.com/search?q=Tinfoil+Kimi K3+official+website",
+    "search": "Tinfoil Kimi K3 open source ai"
   },
   {
-    "name": "InferX: Qwen3-Embedding-8B",
+    "name": "Merge Gateway: Nemotron 3 Nano 30B A3B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3-Embedding-8B от создателя InferX. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Nemotron 3 Nano 30B A3B от создателя Merge Gateway. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=InferX+Qwen3-Embedding-8B+official+website",
-    "search": "InferX Qwen3-Embedding-8B open source ai"
+    "url": "https://www.google.com/search?q=Merge Gateway+Nemotron 3 Nano 30B A3B+official+website",
+    "search": "Merge Gateway Nemotron 3 Nano 30B A3B open source ai"
   },
   {
-    "name": "SiliconFlow: GLM-5.2",
+    "name": "Merge Gateway: Nemotron Nano 9B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-5.2 от создателя SiliconFlow. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Nemotron Nano 9B от создателя Merge Gateway. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=SiliconFlow+GLM-5.2+official+website",
-    "search": "SiliconFlow GLM-5.2 open source ai"
+    "url": "https://www.google.com/search?q=Merge Gateway+Nemotron Nano 9B+official+website",
+    "search": "Merge Gateway Nemotron Nano 9B open source ai"
   },
   {
-    "name": "SiliconFlow: zai-org/GLM-5",
+    "name": "Alibaba: Qwen3 235B-A22B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель zai-org/GLM-5 от создателя SiliconFlow. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3 235B-A22B от создателя Alibaba. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=SiliconFlow+zai-org/GLM-5+official+website",
-    "search": "SiliconFlow zai-org/GLM-5 open source ai"
+    "url": "https://www.google.com/search?q=Alibaba+Qwen3 235B-A22B+official+website",
+    "search": "Alibaba Qwen3 235B-A22B open source ai"
   },
   {
-    "name": "Fireworks AI: GLM 5.3 Flash",
+    "name": "Alibaba: Qwen3-Omni Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM 5.3 Flash от создателя Fireworks AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3-Omni Flash от создателя Alibaba. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Fireworks AI+GLM 5.3 Flash+official+website",
-    "search": "Fireworks AI GLM 5.3 Flash open source ai"
+    "url": "https://www.google.com/search?q=Alibaba+Qwen3-Omni Flash+official+website",
+    "search": "Alibaba Qwen3-Omni Flash open source ai"
   },
   {
-    "name": "Fireworks AI: MiniMax-M3.1-Flash",
+    "name": "abliteration.ai: Abliterated Model Large",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiniMax-M3.1-Flash от создателя Fireworks AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Abliterated Model Large от создателя abliteration.ai. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Fireworks AI+MiniMax-M3.1-Flash+official+website",
-    "search": "Fireworks AI MiniMax-M3.1-Flash open source ai"
+    "url": "https://www.google.com/search?q=abliteration.ai+Abliterated Model Large+official+website",
+    "search": "abliteration.ai Abliterated Model Large open source ai"
   },
   {
-    "name": "submodel: GLM 4.5 FP8",
+    "name": "abliteration.ai: Abliterated Model Large V2",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM 4.5 FP8 от создателя submodel. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Abliterated Model Large V2 от создателя abliteration.ai. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=submodel+GLM 4.5 FP8+official+website",
-    "search": "submodel GLM 4.5 FP8 open source ai"
+    "url": "https://www.google.com/search?q=abliteration.ai+Abliterated Model Large V2+official+website",
+    "search": "abliteration.ai Abliterated Model Large V2 open source ai"
   },
   {
-    "name": "submodel: GLM 4.5 Air",
+    "name": "CoreWeave: Qwen3.8 27B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM 4.5 Air от создателя submodel. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3.8 27B от создателя CoreWeave. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=submodel+GLM 4.5 Air+official+website",
-    "search": "submodel GLM 4.5 Air open source ai"
+    "url": "https://www.google.com/search?q=CoreWeave+Qwen3.8 27B+official+website",
+    "search": "CoreWeave Qwen3.8 27B open source ai"
   },
   {
-    "name": "Sarvam AI: Sarvam-105B",
+    "name": "CoreWeave: Qwen3.6 35B A3B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Sarvam-105B от создателя Sarvam AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3.6 35B A3B от создателя CoreWeave. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Sarvam AI+Sarvam-105B+official+website",
-    "search": "Sarvam AI Sarvam-105B open source ai"
+    "url": "https://www.google.com/search?q=CoreWeave+Qwen3.6 35B A3B+official+website",
+    "search": "CoreWeave Qwen3.6 35B A3B open source ai"
   },
   {
-    "name": "Sarvam AI: Sarvam-30B",
+    "name": "Requesty: Claude Sonnet 5.5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Sarvam-30B от создателя Sarvam AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Claude Sonnet 5.5 от создателя Requesty. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Sarvam AI+Sarvam-30B+official+website",
-    "search": "Sarvam AI Sarvam-30B open source ai"
+    "url": "https://www.google.com/search?q=Requesty+Claude Sonnet 5.5+official+website",
+    "search": "Requesty Claude Sonnet 5.5 open source ai"
   },
   {
-    "name": "AIHubMix: Qwen3.8 Max Preview",
+    "name": "Requesty: GPT-4.1 (EU)",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.8 Max Preview от создателя AIHubMix. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GPT-4.1 (EU) от создателя Requesty. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=AIHubMix+Qwen3.8 Max Preview+official+website",
-    "search": "AIHubMix Qwen3.8 Max Preview open source ai"
+    "url": "https://www.google.com/search?q=Requesty+GPT-4.1 (EU)+official+website",
+    "search": "Requesty GPT-4.1 (EU) open source ai"
   },
   {
-    "name": "AIHubMix: Claude Opus 4.6 Thinking",
+    "name": "Xiaomi Token Plan (Singapore): MiMo-V2.6-Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Claude Opus 4.6 Thinking от создателя AIHubMix. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель MiMo-V2.6-Flash от создателя Xiaomi Token Plan (Singapore). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=AIHubMix+Claude Opus 4.6 Thinking+official+website",
-    "search": "AIHubMix Claude Opus 4.6 Thinking open source ai"
+    "url": "https://www.google.com/search?q=Xiaomi Token Plan (Singapore)+MiMo-V2.6-Flash+official+website",
+    "search": "Xiaomi Token Plan (Singapore) MiMo-V2.6-Flash open source ai"
   },
   {
-    "name": "Pendra: Qwen3.6 27B",
+    "name": "Xiaomi Token Plan (Singapore): MiMo-V2.6-Pro",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.6 27B от создателя Pendra. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель MiMo-V2.6-Pro от создателя Xiaomi Token Plan (Singapore). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Pendra+Qwen3.6 27B+official+website",
-    "search": "Pendra Qwen3.6 27B open source ai"
+    "url": "https://www.google.com/search?q=Xiaomi Token Plan (Singapore)+MiMo-V2.6-Pro+official+website",
+    "search": "Xiaomi Token Plan (Singapore) MiMo-V2.6-Pro open source ai"
   },
   {
-    "name": "Pendra: GLM-4.7-Flash",
+    "name": "KUAE Cloud Coding Plan: GLM-4.7",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-4.7-Flash от создателя Pendra. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM-4.7 от создателя KUAE Cloud Coding Plan. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Pendra+GLM-4.7-Flash+official+website",
-    "search": "Pendra GLM-4.7-Flash open source ai"
+    "url": "https://www.google.com/search?q=KUAE Cloud Coding Plan+GLM-4.7+official+website",
+    "search": "KUAE Cloud Coding Plan GLM-4.7 open source ai"
   },
   {
-    "name": "NaN: Qwen3.6 35B-A3B",
+    "name": "Nvidia: Nemotron 3 Ultra 550B A55B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.6 35B-A3B от создателя NaN. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Nemotron 3 Ultra 550B A55B от создателя Nvidia. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=NaN+Qwen3.6 35B-A3B+official+website",
-    "search": "NaN Qwen3.6 35B-A3B open source ai"
+    "url": "https://www.google.com/search?q=Nvidia+Nemotron 3 Ultra 550B A55B+official+website",
+    "search": "Nvidia Nemotron 3 Ultra 550B A55B open source ai"
   },
   {
-    "name": "NaN: MiMo-V2.6-Flash",
+    "name": "Nvidia: sparsedrive",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.6-Flash от создателя NaN. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель sparsedrive от создателя Nvidia. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=NaN+MiMo-V2.6-Flash+official+website",
-    "search": "NaN MiMo-V2.6-Flash open source ai"
+    "url": "https://www.google.com/search?q=Nvidia+sparsedrive+official+website",
+    "search": "Nvidia sparsedrive open source ai"
   },
   {
-    "name": "D.Run (China): DeepSeek R1",
+    "name": "Pareto Inference: GLM-5.3-Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель DeepSeek R1 от создателя D.Run (China). Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM-5.3-Flash от создателя Pareto Inference. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=D.Run (China)+DeepSeek R1+official+website",
-    "search": "D.Run (China) DeepSeek R1 open source ai"
+    "url": "https://www.google.com/search?q=Pareto Inference+GLM-5.3-Flash+official+website",
+    "search": "Pareto Inference GLM-5.3-Flash open source ai"
   },
   {
-    "name": "D.Run (China): MiniMax M2.5",
+    "name": "AgentRouter: DeepSeek V4 Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiniMax M2.5 от создателя D.Run (China). Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель DeepSeek V4 Flash от создателя AgentRouter. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=D.Run (China)+MiniMax M2.5+official+website",
-    "search": "D.Run (China) MiniMax M2.5 open source ai"
+    "url": "https://www.google.com/search?q=AgentRouter+DeepSeek V4 Flash+official+website",
+    "search": "AgentRouter DeepSeek V4 Flash open source ai"
   },
   {
-    "name": "Impossibl: MiMo-V2.5",
+    "name": "AgentRouter: Claude Opus 5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.5 от создателя Impossibl. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Claude Opus 5 от создателя AgentRouter. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Impossibl+MiMo-V2.5+official+website",
-    "search": "Impossibl MiMo-V2.5 open source ai"
+    "url": "https://www.google.com/search?q=AgentRouter+Claude Opus 5+official+website",
+    "search": "AgentRouter Claude Opus 5 open source ai"
   },
   {
-    "name": "Impossibl: GPT OSS 120B",
+    "name": "Alibaba Coding Plan: GLM-5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GPT OSS 120B от создателя Impossibl. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM-5 от создателя Alibaba Coding Plan. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Impossibl+GPT OSS 120B+official+website",
-    "search": "Impossibl GPT OSS 120B open source ai"
+    "url": "https://www.google.com/search?q=Alibaba Coding Plan+GLM-5+official+website",
+    "search": "Alibaba Coding Plan GLM-5 open source ai"
   },
   {
-    "name": "Novita AI: GLM-4.7-Flash",
+    "name": "Alibaba Coding Plan: Qwen3 Max",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-4.7-Flash от создателя Novita AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3 Max от создателя Alibaba Coding Plan. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Novita AI+GLM-4.7-Flash+official+website",
-    "search": "Novita AI GLM-4.7-Flash open source ai"
+    "url": "https://www.google.com/search?q=Alibaba Coding Plan+Qwen3 Max+official+website",
+    "search": "Alibaba Coding Plan Qwen3 Max open source ai"
   },
   {
-    "name": "Novita AI: GLM-4.5V",
+    "name": "GitHub Copilot: GPT-5.6 Terra",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-4.5V от создателя Novita AI. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GPT-5.6 Terra от создателя GitHub Copilot. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Novita AI+GLM-4.5V+official+website",
-    "search": "Novita AI GLM-4.5V open source ai"
+    "url": "https://www.google.com/search?q=GitHub Copilot+GPT-5.6 Terra+official+website",
+    "search": "GitHub Copilot GPT-5.6 Terra open source ai"
   },
   {
-    "name": "CoreWeave: GLM 5.2",
+    "name": "GitHub Copilot: Claude Sonnet 4.6",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM 5.2 от создателя CoreWeave. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Claude Sonnet 4.6 от создателя GitHub Copilot. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=CoreWeave+GLM 5.2+official+website",
-    "search": "CoreWeave GLM 5.2 open source ai"
+    "url": "https://www.google.com/search?q=GitHub Copilot+Claude Sonnet 4.6+official+website",
+    "search": "GitHub Copilot Claude Sonnet 4.6 open source ai"
   },
   {
-    "name": "CoreWeave: GLM 5.3 Flash",
+    "name": "StepFun (Global): Step 3.5 Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM 5.3 Flash от создателя CoreWeave. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Step 3.5 Flash от создателя StepFun (Global). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=CoreWeave+GLM 5.3 Flash+official+website",
-    "search": "CoreWeave GLM 5.3 Flash open source ai"
+    "url": "https://www.google.com/search?q=StepFun (Global)+Step 3.5 Flash+official+website",
+    "search": "StepFun (Global) Step 3.5 Flash open source ai"
   },
   {
-    "name": "Boundless: GPT-6 Luna",
+    "name": "StepFun (Global): Step 3.7 Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GPT-6 Luna от создателя Boundless. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Step 3.7 Flash от создателя StepFun (Global). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Boundless+GPT-6 Luna+official+website",
-    "search": "Boundless GPT-6 Luna open source ai"
+    "url": "https://www.google.com/search?q=StepFun (Global)+Step 3.7 Flash+official+website",
+    "search": "StepFun (Global) Step 3.7 Flash open source ai"
   },
   {
-    "name": "Boundless: GPT-5.6 Luna",
+    "name": "Pioneer: GPT-5.6 Terra",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GPT-5.6 Luna от создателя Boundless. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GPT-5.6 Terra от создателя Pioneer. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Boundless+GPT-5.6 Luna+official+website",
-    "search": "Boundless GPT-5.6 Luna open source ai"
+    "url": "https://www.google.com/search?q=Pioneer+GPT-5.6 Terra+official+website",
+    "search": "Pioneer GPT-5.6 Terra open source ai"
   },
   {
-    "name": "Charm Hyper: DeepSeek V4.1 Flash 1017",
+    "name": "Pioneer: GPT-5.5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель DeepSeek V4.1 Flash 1017 от создателя Charm Hyper. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GPT-5.5 от создателя Pioneer. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Charm Hyper+DeepSeek V4.1 Flash 1017+official+website",
-    "search": "Charm Hyper DeepSeek V4.1 Flash 1017 open source ai"
+    "url": "https://www.google.com/search?q=Pioneer+GPT-5.5+official+website",
+    "search": "Pioneer GPT-5.5 open source ai"
   },
   {
-    "name": "Charm Hyper: Prism",
+    "name": "above.dev: GLM 5.2",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Prism от создателя Charm Hyper. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM 5.2 от создателя above.dev. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Charm Hyper+Prism+official+website",
-    "search": "Charm Hyper Prism open source ai"
+    "url": "https://www.google.com/search?q=above.dev+GLM 5.2+official+website",
+    "search": "above.dev GLM 5.2 open source ai"
   },
   {
-    "name": "Wafer: GLM-5.2",
+    "name": "above.dev: GLM 5.3 Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-5.2 от создателя Wafer. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM 5.3 Flash от создателя above.dev. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Wafer+GLM-5.2+official+website",
-    "search": "Wafer GLM-5.2 open source ai"
+    "url": "https://www.google.com/search?q=above.dev+GLM 5.3 Flash+official+website",
+    "search": "above.dev GLM 5.3 Flash open source ai"
   },
   {
-    "name": "Wafer: GLM5.2-Fast",
+    "name": "UnoRouter: GPT-5.4",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM5.2-Fast от создателя Wafer. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GPT-5.4 от создателя UnoRouter. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Wafer+GLM5.2-Fast+official+website",
-    "search": "Wafer GLM5.2-Fast open source ai"
+    "url": "https://www.google.com/search?q=UnoRouter+GPT-5.4+official+website",
+    "search": "UnoRouter GPT-5.4 open source ai"
   },
   {
-    "name": "Xiaomi Token Plan (Europe): MiMo-V2.6-Flash",
+    "name": "UnoRouter: Qwen3.5 397B-A17B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.6-Flash от создателя Xiaomi Token Plan (Europe). Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3.5 397B-A17B от создателя UnoRouter. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Xiaomi Token Plan (Europe)+MiMo-V2.6-Flash+official+website",
-    "search": "Xiaomi Token Plan (Europe) MiMo-V2.6-Flash open source ai"
+    "url": "https://www.google.com/search?q=UnoRouter+Qwen3.5 397B-A17B+official+website",
+    "search": "UnoRouter Qwen3.5 397B-A17B open source ai"
   },
   {
-    "name": "Xiaomi Token Plan (Europe): MiMo-V2.6-Pro",
+    "name": "Novita AI: Nemotron 3 Nano 30B A3B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.6-Pro от создателя Xiaomi Token Plan (Europe). Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Nemotron 3 Nano 30B A3B от создателя Novita AI. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Xiaomi Token Plan (Europe)+MiMo-V2.6-Pro+official+website",
-    "search": "Xiaomi Token Plan (Europe) MiMo-V2.6-Pro open source ai"
+    "url": "https://www.google.com/search?q=Novita AI+Nemotron 3 Nano 30B A3B+official+website",
+    "search": "Novita AI Nemotron 3 Nano 30B A3B open source ai"
   },
   {
-    "name": "Xiaomi: MiMo-V2.6-Pro-UltraSpeed",
+    "name": "Novita AI: MiniMax-M3.1-Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.6-Pro-UltraSpeed от создателя Xiaomi. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель MiniMax-M3.1-Flash от создателя Novita AI. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Xiaomi+MiMo-V2.6-Pro-UltraSpeed+official+website",
-    "search": "Xiaomi MiMo-V2.6-Pro-UltraSpeed open source ai"
+    "url": "https://www.google.com/search?q=Novita AI+MiniMax-M3.1-Flash+official+website",
+    "search": "Novita AI MiniMax-M3.1-Flash open source ai"
   },
   {
-    "name": "Xiaomi: MiMo-V2.5-Pro",
+    "name": "OCI Generative AI: Llama 4 Scout 17B Instruct",
     "cat": "chat",
-    "freeVerdict": "Популярная модель MiMo-V2.5-Pro от создателя Xiaomi. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Llama 4 Scout 17B Instruct от создателя OCI Generative AI. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Xiaomi+MiMo-V2.5-Pro+official+website",
-    "search": "Xiaomi MiMo-V2.5-Pro open source ai"
+    "url": "https://www.google.com/search?q=OCI Generative AI+Llama 4 Scout 17B Instruct+official+website",
+    "search": "OCI Generative AI Llama 4 Scout 17B Instruct open source ai"
   },
   {
-    "name": "Friendli: GLM-5.2",
+    "name": "OCI Generative AI: Grok 4.6",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-5.2 от создателя Friendli. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Grok 4.6 от создателя OCI Generative AI. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Friendli+GLM-5.2+official+website",
-    "search": "Friendli GLM-5.2 open source ai"
+    "url": "https://www.google.com/search?q=OCI Generative AI+Grok 4.6+official+website",
+    "search": "OCI Generative AI Grok 4.6 open source ai"
   },
   {
-    "name": "Friendli: GLM-5.3-Flash",
+    "name": "MiniMax (minimax.io): MiniMax-M2.1",
     "cat": "chat",
-    "freeVerdict": "Популярная модель GLM-5.3-Flash от создателя Friendli. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель MiniMax-M2.1 от создателя MiniMax (minimax.io). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Friendli+GLM-5.3-Flash+official+website",
-    "search": "Friendli GLM-5.3-Flash open source ai"
+    "url": "https://www.google.com/search?q=MiniMax (minimax.io)+MiniMax-M2.1+official+website",
+    "search": "MiniMax (minimax.io) MiniMax-M2.1 open source ai"
   },
   {
-    "name": "Helicone: Meta Llama Guard 4 12B",
+    "name": "MiniMax (minimax.io): MiniMax-M2.5",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Meta Llama Guard 4 12B от создателя Helicone. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель MiniMax-M2.5 от создателя MiniMax (minimax.io). Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Helicone+Meta Llama Guard 4 12B+official+website",
-    "search": "Helicone Meta Llama Guard 4 12B open source ai"
+    "url": "https://www.google.com/search?q=MiniMax (minimax.io)+MiniMax-M2.5+official+website",
+    "search": "MiniMax (minimax.io) MiniMax-M2.5 open source ai"
   },
   {
-    "name": "Helicone: xAI Grok 4.1 Fast Non-Reasoning",
+    "name": "Zhipu AI Coding Plan: GLM-5.3-Flash",
     "cat": "chat",
-    "freeVerdict": "Популярная модель xAI Grok 4.1 Fast Non-Reasoning от создателя Helicone. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM-5.3-Flash от создателя Zhipu AI Coding Plan. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Helicone+xAI Grok 4.1 Fast Non-Reasoning+official+website",
-    "search": "Helicone xAI Grok 4.1 Fast Non-Reasoning open source ai"
+    "url": "https://www.google.com/search?q=Zhipu AI Coding Plan+GLM-5.3-Flash+official+website",
+    "search": "Zhipu AI Coding Plan GLM-5.3-Flash open source ai"
   },
   {
-    "name": "Hetzner: Qwen3.8-27B",
+    "name": "Zhipu AI Coding Plan: GLM-5.3 Highspeed",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.8-27B от создателя Hetzner. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель GLM-5.3 Highspeed от создателя Zhipu AI Coding Plan. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Hetzner+Qwen3.8-27B+official+website",
-    "search": "Hetzner Qwen3.8-27B open source ai"
+    "url": "https://www.google.com/search?q=Zhipu AI Coding Plan+GLM-5.3 Highspeed+official+website",
+    "search": "Zhipu AI Coding Plan GLM-5.3 Highspeed open source ai"
   },
   {
-    "name": "Hetzner: Qwen3.6 35B A3B FP8",
+    "name": "Meta: Muse Spark 1.3",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Qwen3.6 35B A3B FP8 от создателя Hetzner. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Muse Spark 1.3 от создателя Meta. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Hetzner+Qwen3.6 35B A3B FP8+official+website",
-    "search": "Hetzner Qwen3.6 35B A3B FP8 open source ai"
+    "url": "https://www.google.com/search?q=Meta+Muse Spark 1.3+official+website",
+    "search": "Meta Muse Spark 1.3 open source ai"
   },
   {
-    "name": "Infomaniak: BGE Multilingual Gemma2",
+    "name": "Meta: Muse Wonder",
     "cat": "chat",
-    "freeVerdict": "Популярная модель BGE Multilingual Gemma2 от создателя Infomaniak. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Muse Wonder от создателя Meta. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Infomaniak+BGE Multilingual Gemma2+official+website",
-    "search": "Infomaniak BGE Multilingual Gemma2 open source ai"
+    "url": "https://www.google.com/search?q=Meta+Muse Wonder+official+website",
+    "search": "Meta Muse Wonder open source ai"
   },
   {
-    "name": "Infomaniak: All-MiniLM-L12-v2",
+    "name": "Synthetic: Nemotron 3 Super 120B A12B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель All-MiniLM-L12-v2 от создателя Infomaniak. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Nemotron 3 Super 120B A12B от создателя Synthetic. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=Infomaniak+All-MiniLM-L12-v2+official+website",
-    "search": "Infomaniak All-MiniLM-L12-v2 open source ai"
+    "url": "https://www.google.com/search?q=Synthetic+Nemotron 3 Super 120B A12B+official+website",
+    "search": "Synthetic Nemotron 3 Super 120B A12B open source ai"
   },
   {
-    "name": "FastRouter: Sarvam 105B",
+    "name": "Synthetic: Qwen3.6 27B",
     "cat": "chat",
-    "freeVerdict": "Популярная модель Sarvam 105B от создателя FastRouter. Актуальные технические спецификации из открытого реестра.",
+    "freeVerdict": "Популярная модель Qwen3.6 27B от создателя Synthetic. Актуальные технические спецификации из открытого реестра.",
     "card": false,
     "watermark": false,
     "reset": "Безлимит",
     "hasFree": true,
-    "url": "https://www.google.com/search?q=FastRouter+Sarvam 105B+official+website",
-    "search": "FastRouter Sarvam 105B open source ai"
+    "url": "https://www.google.com/search?q=Synthetic+Qwen3.6 27B+official+website",
+    "search": "Synthetic Qwen3.6 27B open source ai"
   }
 ]
